@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sitios Arqueológicos de Colombia</title>
+  <meta charset="utf-8" />
+
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-65924431-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-65924431-1');
+  </script>
+
+  <style>
+    .geo-layer {
+      fill: #fff;
+      stroke: #aaa;
+    }
+
+    body {
+        min-width: 1000px;
+        max-width: 1000px;
+    }
+
+    h3 {
+        margin-bottom: -0.25em;
+    }
+
+  </style>
+
+</head>
+
+<body>
+  <div class="section">
+    <h3>Sitios Arqueológicos de Colombia</h3>
+    <p style="font-size: 9pt">Mantenido por <a href="https://santiago-mora.github.io/">Santiago Mora</a> y <a href="https://federicoaureliano.github.io">Federico Mora</a></p>
+    <div class="hbar"> </div>
+    
+    <p>
+      <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/data/bib.csv">bibliografía</a>
+    </p>
+
+    <br>
+
+    <select id="etapa">
+      <option value="Total">Todas Las Etapas</option>
+      <option value="Republicano">Etapa Republicano (1800 d.C. - Presente)</option>
+      <option value="Colonial">Etapa Colonial (1600 d.C. - 1800 d.C.)</option>
+      <option value="Cacicazgos">Etapa Cacicazgos (1000 a.C. - 1600 d.C.)</option>
+      <option value="Formativo">Etapa Formativo (3000 a.C. - 1000 a.C.)</option>
+      <option value="Paleoindio">Etapa Paleoindio (14000 a.C. - 5000 a.C.)</option>
+    </select>
+
+    <svg></svg>
+
+<script>
+      var width = 1000,
+        height = 700,
+        centered;
+
+      // Define color scale
+      var color = d3.scale.linear()
+        .domain([1, 20])
+        .clamp(true)
+        .range(['#fff', '#409A99']);
+
+      var projection = d3.geo.mercator()
+        .scale(2100)
+        // Center the Map in Colombia
+        .center([-74, 4.5])
+        .translate([width / 2, height / 2]);
+
+      var path = d3.geo.path()
+        .projection(projection);
+
+      // Set svg width & height
+      var svg = d3.select('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      var g = svg.append('g');
+
+      var geoLayer = g.append('g')
+        .classed('geo-layer', true);
+
+      // Load geo data
+      d3.json('https://federicoaureliano.github.io/ArqCol/data/colombia.geo.json', function (error, mapData) {
+        var features = mapData.features;
+
+        // Update color scale domain based on data
+        color.domain([0, d3.max(features, nameLength)]);
+
+        // Draw each province as a path
+        geoLayer.selectAll('path')
+          .data(features)
+          .enter().append('path')
+          .attr('d', path)
+          .attr('vector-effect', 'non-scaling-stroke')
+          .style('fill', fillFn)
+          .on('click', clicked);
+      });
+
+      // Get province name
+      function nameFn(d) {
+        return d && d.properties ? d.properties.NOMBRE_DPT : null;
+      }
+
+      // Get province name length
+      function nameLength(d) {
+        var n = nameFn(d);
+        return n ? n.length : 0;
+      }
+
+      // Get province color
+      function fillFn(d) {
+        return color(nameLength(d));
+      }
+
+      // When clicked, zoom in
+      function clicked(d) {
+        var x, y, k;
+
+        // Compute centroid of the selected path
+        if (d && centered !== d) {
+          var centroid = path.centroid(d);
+          x = centroid[0];
+          y = centroid[1];
+          k = 4;
+          centered = d;
+        } else {
+          x = width / 2;
+          y = height / 2;
+          k = 1;
+          centered = null;
+        }
+
+        // Highlight the clicked province
+        geoLayer.selectAll('path')
+          .style('fill', function (d) {
+            return centered && d === centered ? '#D5708B' : fillFn(d);
+          });
+
+        // Zoom
+        g.transition()
+          .duration(750)
+          .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -
+            y + ')');
+      }
+
+      //// POINTS ON MAP
+
+      // Get region name
+      function regionNameFn(d) {
+        return d.Región ? String(d.Región) : d;
+      }
+
+      var sorted_regions = [];
+
+      // Get province color
+      function regionFillFn(d) {
+        var str = regionNameFn(d);
+        if (str.length > 2 && sorted_regions.indexOf(str) < 0) { sorted_regions.push(str); sorted_regions.sort().reverse();}
+
+        if ("Tierras bajas orientales" == str) {
+          return "#660066";
+        } else if ("Peninsula de la Guajira y corredor del Cesar" == str) {
+          return "#cccc00";
+        } else if ("Uraba, alto Sinú" == str) {
+          return "#cc0000";
+        } else if ("Montaña Santandereana" == str) {
+          return "#cc6600";
+        } else if ("Macizo Andino del sur" == str) {
+          return "#33cc33";
+        } else if ("Costa Pacífica" == str) {
+          return "#003300";
+        } else if ("Macizo Antioqueño" == str) {
+          return "#cc33ff";
+        } else if ("Magdalena medio" == str) {
+          return "#ffcccc";
+        } else if ("Llanuras del Caribe cuencas bajas Sinú y San Jorge" == str) {
+          return "#00ffff";
+        } else if ("Magdalena medio" == str) {
+          return "#ffcccc";
+        } else if ("Sierra Nevada" == str) {
+          return "#66ff33";
+        } else if ("Valles alto Calima y alto y medio del Cauca" == str) {
+          return "#669999";
+        } else if ("Alto Magdalena" == str) {
+          return "#ff9933";
+        } else if ("Altiplano Cundiboyacense" == str) {
+          return "#003399";
+        }
+        else {
+          return "#000";
+        }
+
+      }
+
+      var pointsLayer = g.append('g')
+        .classed('points-layer', true);
+
+      // Load site data
+      var data;
+      d3.csv('https://federicoaureliano.github.io/ArqCol/data/mapa.csv', function (error, pointData) {
+        // Update color scale domain based on data
+        data = pointData;
+
+        // Draw each site as a circle
+        pointsLayer.selectAll("circle")
+          .data(pointData)
+          .enter().append("circle", "circle")
+          .attr("r", function (d) {
+            return d.Total*0.5;
+          })
+          .attr("transform", function (d) {
+            return "translate(" + projection([
+              d.Longitud,
+              d.Latitud
+            ]) + ")";
+          })
+          .style("stroke", regionFillFn)
+          .style("fill", "transparent")
+          .append("title")
+          .text(function (d) {
+            return "Sitio: " + d.Sitio + "\nRegión: " + d.Región + "\nReferencia(s): " + d.Referencia;
+          })
+
+          // add legend   
+          var legend = g.append("g")
+          .attr("class", "legend")
+          .attr("height", 100)
+          .attr("width", 100)
+          .attr('transform', 'translate(-80, 6.5)')
+            
+          legend.selectAll('circle')
+            .data(sorted_regions)
+            .enter()
+            .append("circle")
+            .attr("transform", function (d) {
+              return "translate(" + projection([
+                -85.3, sorted_regions.indexOf(d)*0.5 + 6.8
+              ]) + ")";
+            })
+            .attr("r", 5)
+            .style("fill", regionFillFn)
+            .style("stroke", regionFillFn);
+
+          legend.selectAll('text')
+            .data(sorted_regions)
+            .enter()
+            .append("text")
+            .attr("transform", function (d) {
+              return "translate(" + projection([
+                -84.8, sorted_regions.indexOf(d)*0.5 + 6.7
+              ]) + ")";
+            })
+            .style("font-size", "8pt")
+            .text(function(d) { return d;});
+      });        
+
+      d3.select("#etapa").on("change", change)
+
+      function change() {
+        var choice = this.value;
+
+        if (choice == "Cacicazgos") {
+          d3.selectAll("circle").data(data).transition()
+            .duration(750)
+            .attr("r", function (d) {
+              return d.Cacicazgos*0.5;
+            });
+        } else if (choice == "Formativo") {
+          d3.selectAll("circle").data(data).transition()
+            .duration(750)
+            .attr("r", function (d) {
+              return d.Formativo*0.5;
+            });
+        } else if (choice == "Colonial") {
+          d3.selectAll("circle").data(data).transition()
+            .duration(750)
+            .attr("r", function (d) {
+              return d.Colonial*0.5;
+            });
+        } else if (choice == "Paleoindio") {
+          d3.selectAll("circle").data(data).transition()
+            .duration(750)
+            .attr("r", function (d) {
+              return d.Paleoindio*0.5;
+            });
+        } else if (choice == "Republicano") {
+          d3.selectAll("circle").data(data).transition()
+            .duration(750)
+            .attr("r", function (d) {
+              return d.Republicano*0.5;
+            });
+        }
+        else {
+          d3.selectAll("circle").data(data).transition()
+            .duration(750)
+            .attr("r", function (d) {
+              return d.Total*0.5;
+            });
+        }
+      }
+    </script>
+
+    <div class="hbar"> </div>
+    <p style="font-size: 8pt">Gracias a John Alexis Guerra Gómez por el <a href="https://bl.ocks.org/john-guerra/43c7656821069d00dcbc"> mapa de Colombia</a>.</p>
+
+</body>
+</html>

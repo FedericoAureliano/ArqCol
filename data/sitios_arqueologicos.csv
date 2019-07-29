@@ -1,0 +1,484 @@
+Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Longitud,Altitud,Héctareas valor mayor,Héctareas valor menor,Plancha,Escala,Contextos,Descripción,Restos Fauna,Restos Oseos,Restos Botánicos,Analisis de Suelos,Polen,Cerámica,Líticos,Tipos cerámicos,Referencia,Multicomponente
+0,El Abra,,Altiplano Cundiboyacense,Cundinamarca,,,,,0,0,0,,,,,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,,"Correal; Van Der Hammen & Hurt 1977; Hurt 1967-69, Hurt et al. 1976.",TRUE
+1,Abeja,2.1.86,Tierras bajas orientales,Caquetá,Araracuara,,,,245,6,6,,,Habitación,,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,Herrera et al. 1987; 1989; 1992; 1992; Mora et al 1991;1988; 1990. Llanos 1995; 1997; Mora 2001,TRUE
+2,Acacías,A2,Tierras bajas orientales,Meta,,,,,523,,,,,Habitación,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,,"Mora, & Cavelier, 1983; 1987",FALSE
+3,Aguabonita,S1,Alto Magdalena,Cauca,,,,,,,,,,Tumba,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Chaves, & Puerta, 1978",FALSE
+4,Agualinda,S2,Valles alto Calima y alto y medio del Cauca,,,,3.830738888,-76.5157305,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1983",FALSE
+5,Aguazuque I,S3,Altiplano Cundiboyacense,Cundinamarca,,,4.612809874,-74.28007692,,,,,,Habitación,,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Correal, 1990",TRUE
+6,Almacafé,S4,Valles alto Calima y alto y medio del Cauca,,,,3.910,-76.320,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Cardale; Bray &  Herrera 1989; Rodríguez 1988-1990,FALSE
+7,Alto de Las Piedras,S5,Alto Magdalena,Huila,San Agustín,,1.975570129,-76.17684079,,,,,,Tumbas,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Duque, & Cubillos, 1993",FALSE
+8,Alto de los Idolos,S6,Alto Magdalena,Huila,,,1.917688391,-76.24445204,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Reichel-Dolmatoff, 1972; Duque, & Cubillos, 1979",FALSE
+9,Alto de Mira,S7,Sierra Nevada,,,,11.0114416,-73.878972,,,,,,"Basurero, habitación",,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Ardila, 1984-85; 1986",FALSE
+10,Alto del Lavapatas,S8,Alto Magdalena,Huila,,,1.880913659,-76.30548952,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Duque & Cubillos, 1988",FALSE
+11,Angosturas,S9,Tierras bajas orientales,Meta,,,2°18´ N,73°7',,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1993",FALSE
+12,Araracuara 15,S11,Tierras bajas orientales,,,,-0.619749126,-72.3922765,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
+13,Araracuara 21,S12,Tierras bajas orientales,,,,-0.607633894,-72.39236336,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
+14,Araracuara 22,S13,Tierras bajas orientales,,,,-0.609803452,-72.39371102,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
+15,Araracuara 25,S10,Tierras bajas orientales,,,,-0.5989527,-72.3995472,,,,,,,,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,,"Andrade, 1986; Cavelier, et al 1990",FALSE
+16,Araracuara 26,S14,Tierras bajas orientales,,,,-0.5917194,-72.4031361,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Andrade, 1986; Cavelier, et al 1990",FALSE
+17,Araracuara 7,S15,Tierras bajas orientales,,,,-0.613419064,-72.39721446,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981",FALSE
+18,Arboledas,S16,Valles alto Calima y alto y medio del Cauca,,,,3.673610658,-76.57370732,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gähwiler, 1988",FALSE
+19,Armenia,S17,Valles alto Calima y alto y medio del Cauca,,,,6.120,-75.800,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1980",FALSE
+20,Armenia-Mantequilla,S18,Valles alto Calima y alto y medio del Cauca,,,,4.540,-75.710,,,,,,,Información Erigaie,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
+21,Balao,S19,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Alcina, 1981",FALSE
+22,Barca de Yotoco,S20,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, & Moseley 1970; Sampson, et al. 1976",FALSE
+23,Barlovento,S21,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Reichel-Dolmatoff, 1965; Angulo, 1995",FALSE
+24,Barrancabermeja,S22,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, en prensa",FALSE
+25,Barranquilla,VP0002,Alto Magdalena,,,,2.1902142,-76.08637,,,,,,Tumba,VP0002,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Drennan, 1993",FALSE
+26,Belén Altavista La Perla,S24,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Castillo, 1995",FALSE
+27,Betania,S25,Alto Magdalena,,,,1.921855367,-76.25963783,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Llanos, 1993",FALSE
+28,Bocana I,S26,Costa Pacífica,,,,3°45´ N,76°59´,,,,,,Basurero,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, & Stemper, 1991; Salgado, et al. 1995",FALSE
+29,Bocana III,S27,Costa Pacífica,,,,3.8024,-77.17625,,,,,,Basurero,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, et al. 1995",FALSE
+30,Bogotá (?),S28,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+31,Bojacá,S29,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, 1986",FALSE
+32,Bomboná,S30,Macizo Andino del sur,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cárdenas, 1996",FALSE
+33,Bucarelia,S31,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,9°41´ N,74°48´,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, en Stuiver 1969",FALSE
+34,Buena Vista,S32,Costa Pacífica,,,,2.070,-78.700,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Patiño, 1989",FALSE
+35,Buenavista (Huila).,S33,Alto Magdalena,,,,,,,,,,,Habitación,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Moreno 1995,FALSE
+36,Buenos Aires,S34,Alto Magdalena,,,,2.19445,-76.0724,,,,,,,Buenos Aires B VP0789,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Drennan, 1993",FALSE
+37,Bura,S35,Altiplano Cundiboyacense,,,,6.068416,-72.7356305,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Pérez, 1988; Peña 1991",FALSE
+38,Buritaca 200,S36,Sierra Nevada,Magdalena,,,11.04401436,-73.9280923,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Herrera, Luisa Fernanda 1980; Cadavid, 1986;1982",FALSE
+39,Buritaca 204,S38,Sierra Nevada,,,,11.19,-74.04,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Cardoso, Patricia 1986",FALSE
+40,"Busbazá LP-I , Vereda La Puerta",S39,Altiplano Cundiboyacense,,,,5.818780289,-72.90217104,2559,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Archila, 1986",FALSE
+41,C 36,S40,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+42,C 36-I,S41,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+43,C 36-II,S42,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+44,C 37,S43,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+45,C 52,S44,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+46,C 55-I,S45,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+47,C 55-II,S46,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+48,C 61,S47,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+49,C 69-III,S48,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+50,Caballo,S49,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.57053578,-75.088661,,,,,,,En el catálogo de Erigaie aparece como Monte Sión.,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1988.También en Peña 2001",FALSE
+51,Cabo de la Vela,S50,Valles alto Calima y alto y medio del Cauca,,,,3.900312346,-76.43825938,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez &. Bashilov 1988; Herrera, Cardale &  Bray 1990; Cardale, Bray & Herrera, 1989; Salgado1988; 1989;1993; Salgado, Rodríguez & Bashilov 1993.",FALSE
+52,Cálamo,S51,Alto Magdalena,,,,1.863418845,-76.04812704,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Llanos, 1990",FALSE
+53,Campo Alegre Tasajeras,S52,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.96,-74.3825,,,,,,,En el catalogo de Erigaoe aparece como  Los Jagüeyes,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1978; Archila 1993",FALSE
+54,Canapote,S53,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10°27´ N,75°30´,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bischof, 1966;1972; Angulo, 1995",FALSE
+55,Cancha Fútbol,S54,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al.1995",FALSE
+56,Candelaria La Nueva,S55,Altiplano Cundiboyacense,Cundinamarca,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Cifuentes & Moreno 1987; Goggel 1989; Therrien & Enciso, 1991;  Cárdenas 1993",FALSE
+57,Cangarú,S56,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.99,-74.30,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Murdy, 1986; Reichel-Dolmatoff, 1985; Archila, 1991; 1993",FALSE
+58,Caño Bombay,S57,Tierras bajas orientales,,,,6.0531416,-69.68457,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Giraldo, 1988",FALSE
+59,Japón 1,S58,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.680830811,-74.96024584,,,,,,,"En las tablas de la fundación aparece como Japón 1, yo lo tenía como Caño Marusa.",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, et al. 1993",FALSE
+60,Cantarrana,S59,Valles alto Calima y alto y medio del Cauca,,,,4.91322882,-75.62070950,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Jaramillo, 1989",FALSE
+61,Carate 15,S60,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.634612198,-75.1139284,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, et al. 1993",FALSE
+62,Carate 19,S61,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.62329151,-75.121527,,,,,,Basurero,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Plazas,  Falchetti, Sáenz  & Archila 1993; Plazas,  Falchetti, van der Hammen & Botero 1988",FALSE
+63,Carate 25,S62,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.574886523,-75.13638132,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas,  Falchetti, Sáenz  & Archila 1993; Plazas,  Falchetti, van der Hammen & Botero 1988",FALSE
+64,Carate 26,S63,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.626894197,-75.12644269,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas,  Falchetti, Sáenz  & Archila 1993; Plazas,  Falchetti, van der Hammen & Botero 1988",FALSE
+65,Carrizal,S64,Montaña Santandereana,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1990",FALSE
+66,Catanga,S65,Tierras bajas orientales,Casanare,,,,,,,,,,,,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Mora, 1988",FALSE
+67,Catanguero,66,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, 1965",FALSE
+68,Cecilio,67,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.7924527,-74.4969416,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Angulo, 1978",FALSE
+69,Ceilán,68,Valles alto Calima y alto y medio del Cauca,,,,3.888048484,-76.484543,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1987;1988; Cardale,  Bray &  Herrera 1989",FALSE
+70,Checua,69,Altiplano Cundiboyacense,Cundinamarca,Nemocón,,5.124049095,-73.88088453,,,,,,,,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Groot, 1992",TRUE
+71,Chía I,70,Altiplano Cundiboyacense,Cundinamarca,,,4.890,-74.02500,,,,,,,,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Ardila, 1984",TRUE
+72,Chía II,71,Altiplano Cundiboyacense,Cundinamarca,,,4.88950,-74.02150,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Ardila, 1984",TRUE
+73,Chía III,72,Altiplano Cundiboyacense,Cundinamarca,,,4.88312,-74.02469,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Ardila, 1984",FALSE
+74,Chinchiná,73,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Santos, 1994",FALSE
+75,Chinchiná (?),74,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos, 1994 ?",FALSE
+76,Chisacá,75,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Falchetti, 1979",FALSE
+77,Chiscas,76,Altiplano Cundiboyacense,Cundinamarca,,,6.520,-72.510,,,,,,,Fechas de una momia.,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cárdenas, 1989, 1990; 1996; 1997; Correal 1996",FALSE
+79,Churuvita II,78,Altiplano Cundiboyacense,Boyacá,,,,,,,,,,,Se realizaron recolecciones superficiales,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Boada, et al. 1989",FALSE
+80,CIAT 1,79,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez & Stemper, 1993",FALSE
+81,CIAT 2,80,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez & Stemper, 1993",FALSE
+82,Cinto,81,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,11.32972136,-74.05984835,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Oyuela, 1985; 1986",FALSE
+83,Ciudad Antigua,82,Sierra Nevada,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Campo, 1995",FALSE
+84,Cogollo,83,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.752904745,-74.98949236,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, et al. 1993",FALSE
+85,Colorados,84,Magdalena medio,Cundinamarca,Puerto Salgar,,5.488994,-74.612327,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Castaño, &  Davila,1984",FALSE
+86,Córdoba,85,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bruhns, 1976",FALSE
+87,Corte Montículo,86,Macizo Antioqueño,Antioquia?,Buriticá,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Girón, 1985",FALSE
+88,Cortijo de los Calimas,87,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al., 1981",FALSE
+89,Cota,88,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"McBride,  1991",FALSE
+90,Cueva del Caucho,89,Montaña Santandereana,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1990",FALSE
+91,Cueva El Conde,90,Montaña Santandereana,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1990",FALSE
+92,Cueva La Antigua,91,Montaña Santandereana,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Peña, 1991, cita a Bray s.p.",FALSE
+93,Cupica IV,92,Costa Pacífica,,,,6°4´ 22´ N,77°30´ 10¨,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolamtoff, 1962",FALSE
+94,El Abra 2,93,Altiplano Cundiboyacense,,,,5.02000,-73.96000,,,,,,,,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,,"Correal, et al. 1977; Hurt 1967-69, Hurt et al. 1976.",TRUE
+95,El Aguacate,94,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Chaves, & Puerta, 1986; Chaves 1991",FALSE
+96,El Balsal,95,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bouchard, 1983",FALSE
+97,El Bosque,96,Magdalena medio,,,,5.556540628,-74.87012155,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al.1995",FALSE
+98,El Cabrero,97,"Uraba, alto Sinú",,,,8.15406710,-76.09789402,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Botiva, et al. 1991",FALSE
+99,El Cangrejo,98,Altiplano Cundiboyacense,,,,5.550,-73.680,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Therrien, 1991",FALSE
+100,El Carmen,99,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, et al. 1994",FALSE
+101,El Consuelo,100,Magdalena medio,Córdoba,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Botiva, et al. 1994",FALSE
+102,El Dorado,101,Valles alto Calima y alto y medio del Cauca,Valle del Cauca,Restrepo,,3.841184836,-76.45324783,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Bray, et al. 1985; 1986; Piperno 1985; Wassen 1976; Bray, Herrera & Cardale 1988; Herrera, Cardale & Bray 1990. Cardale, Bray & Herrera 1989.",FALSE
+103,El Estorbo I,102,"Uraba, alto Sinú",,,,8.147329205,-76.72740456,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Méndez, 1980; Otero et al, 1990. Botiva et al., 1991; Neyla 1988 Botiva & Santos 197.; Santos 1986; 1989; Archila 1993;",FALSE
+105,El Estrecho,104,Alto Magdalena,,,,1.93885,-76.31576,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Cubillos, 1980; Duque & Cubillos, 1988:105",FALSE
+106,El Gallo I,105,"Uraba, alto Sinú",,,,8.180,-76.070,,,,,,,Las coordenadas para el gallo I y el Gallo II son las mismas. Probablemente los número se refieren a los sondeos.,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Botiva, et al. 1991",FALSE
+107,El Infiernito,106,Altiplano Cundiboyacense,Boyacá,,,5.647698531,-73.56299326,,,,,,,Tiene arquitectura monumental sometida a una pesima reconstrucción sin criterios claros.,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Silva, 1981; Boada; Mora  & Therrien 1988; Boada; Therrien &  Mora 1989",FALSE
+109,El Japón,108,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+110,El Japon-Marusa,109,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+111,El Man,110,Magdalena medio,Córdoba,,,7.967580021,-75.19924161,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Botiva, et al. 1994",FALSE
+112,El Mango Montaño,111,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Valdez, 1987",FALSE
+113,El Mondey,112,Alto Magdalena,,,,2.026763173,-76.12172127,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Moreno, 1988; 1991,  Ver reseña de Boada 1990 a Moreno 1991.",FALSE
+114,El Morro,113,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Bouchard, 1983",FALSE
+115,El Palmar,114,Peninsula de la Guajira y corredor del Cesar,,,,10.920,-72.820,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Ardila, 1983",FALSE
+116,El Parador,115,Alto Magdalena,,,,1.92049312,-76.24759607,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cubillos,1980",FALSE
+117,El Pital,116,Valles alto Calima y alto y medio del Cauca,,,,3.83,-76.60,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Salgado, 1986;1989;1995; Salgado; Osorio & Gutierrez 1986; Cardale, 1986; Cardale; Bray & Herrera 1989; Herrera;  Bray; Cardale & Botero 1992; Gnecco & Salgado 1989.",FALSE
+118,El Pozón,117,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, & Falchetti 1986",FALSE
+119,El Prodigio,118,Magdalena medio,Tolima,Chaparral,El limon,3.655051578,-75.6406405,1800,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,Cerámica Buga,"Rodríguez, 1989; 1991,1995.",TRUE
+120,El Ranchito,119,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Piazzini 1993; Castillo, 1992",FALSE
+121,El Recreo,120,Valles alto Calima y alto y medio del Cauca,,,,3.85955,-76.49560,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Herrera, et al. 1992; Herrera; Cardale & Bray 1990; Gnecco & Salgado 1989;",FALSE
+122,El Rosario,121,Valles alto Calima y alto y medio del Cauca,,,,"3°49' 14"" N","76°00' 34""",,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Forero, 1993",FALSE
+123,El Tamarindo,122,Costa Pacífica,,,,2.774795419,-77.6662786,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, 1987;1988.",FALSE
+124,El Tambo,123,Macizo Andino del sur,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1978; 1992:9",FALSE
+125,El Tiestero,124,Macizo Antioqueño,,,,6.270,-75.660,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Marrón Inciso,"Santos, 1994; Botero & Vélez, 1995",FALSE
+126,El Topacio,125,Valles alto Calima y alto y medio del Cauca,Valle del Cauca,Calima,,3.931296892,-76.45615231,1650,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,,"Cardale, 1987; Cardale et al., 1989; Bray et al., 1987;1988. Herrera et al., 1990.",FALSE
+127,El Venado III,126,Altiplano Cundiboyacense,Boyacá,,,5.503394,-73.518838,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Boada; Therrien & S. Mora 1989,FALSE
+128,El Volador,127,Macizo Antioqueño,,,,6.270,-75.580,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bermudez, 1995; Santos, 1995:Piazzini 1993; Castillo, 1992",FALSE
+129,Frasquillo,128,"Uraba, alto Sinú",,,,8.180,-76.070,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Botiva, et al. 1991",FALSE
+131,Fúquene,130,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1990",FALSE
+132,Gachalá,131,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1979",FALSE
+133,Galíndez,132,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, & Gnecco, 1992",FALSE
+134,Girardot,133,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1993",FALSE
+135,Guabas,134,Valles alto Calima y alto y medio del Cauca,,,,3.764201354,-76.30370005,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez en Herrera, 1984;  Bray 1989; Rodríguez 1985",FALSE
+136,Guacanas,135,Alto Magdalena,,,,2°15' N,75°40',,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Llanos, 1993",FALSE
+137,Guácharos I,136,Alto Magdalena,,,,1.5245,-76.090,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, & van der Hammen, 1984",FALSE
+138,Guaduero,137,Magdalena medio,,,,5.19000,-74.60000,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Hernandez, & Caceres, 1989",FALSE
+140,Guaiqurí,139,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, et al. 1981, cita a Reines s.p.",TRUE
+141,Guájaro,140,Llanuras del Caribe cuencas bajas Sinú y San Jorge,Magdalena,,,,,,,,,,,,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Angulo, 1986; Peña 2001 - zooarqueología.",FALSE
+142,Guájaro-Rotinet,141,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+143,Guapotá,142,Montaña Santandereana,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Sutherland, 1971",FALSE
+144,Guasca,143,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1990",FALSE
+145,Guatavita,144,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Falchetti, 1979; Reichel-Dolmatoff 1986; Uribe, 1990",FALSE
+146,Guayabal,145,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, & Gnecco, 1992",FALSE
+148,Guayabito-Yacimiento 11,147,,,,,6.05521142,-76.76982646,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Monsalve & Botero 1997,FALSE
+149,Guayabero I,148,Tierras bajas orientales,Guaviare,San José del Guaviare,,2.56983467,-71.08801912,240,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,,"Correal, et al. 1990; Botiva 1986",FALSE
+150,Imbilí,149,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, 1965",FALSE
+151,Inguapí,150,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bouchard, 1983",FALSE
+152,Irique,151,Tierras bajas orientales,Meta,Fuente de Oro,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Mora, & Cavelier, 1985",FALSE
+153,Jardin del Este,152,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Buys & Dominguez, 1989",FALSE
+154,Jolón,153,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+155,Jongovito,154,Macizo Andino del sur,,,,1.179571005,-77.3079592,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Groot, 1991",FALSE
+157,La  Guayabala,156,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+158,La Aguada,157,Valles alto Calima y alto y medio del Cauca,,,,5.920,-75.690,,,,,,,En el catalogo de Erigaie aparece como La Sorga.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Otero, 1992; Bermudez, 1995:59",FALSE
+159,La Alsacia,158,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1981; Rodríguez, et al. 1994.",FALSE
+160,La Amapola,159,Valles alto Calima y alto y medio del Cauca,,,,3.65847032,-76.58523671,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Gähwiler, 1988; 1989",FALSE
+161,La Asomada,160,Altiplano Cundiboyacense,Boyacá,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Boada, et al. 1989",FALSE
+162,La Aurora,161,Valles alto Calima y alto y medio del Cauca,,,,3.83,-76.55,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1981",FALSE
+163,La Balsa,162,Valles alto Calima y alto y medio del Cauca,,,,2.573652275,-76.65021312,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Méndez, 1980; Gnecco & Salgado 1989",FALSE
+164,La Balsa (?),163,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+165,La Bolivia,164,Valles alto Calima y alto y medio del Cauca,,,,3.650372722,-76.57768065,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Gähwiler-Walder 1988; 1989,FALSE
+166,La Cocotera,165,Costa Pacífica,,,,2.849393469,-77.67773736,,,,,,Basurero,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, 1988; 1988; 1987; 1987; 1995",FALSE
+167,La Elvira,166,Valles alto Calima y alto y medio del Cauca,,,,2.5062472,-76.5583472,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,,Gnecco & Illera 1989; Gnecco & Salgado 1989; Gnecco & Mohammed 1994; Gnecco 1997; Gnecco 7 Mora 1997; Mora & Gnecco 2003,FALSE
+168,La Escocia,167,Valles alto Calima y alto y medio del Cauca,,,,3.660,-76.580,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Gähwiler-Walder 1988,FALSE
+169,La Esperanza,168,Macizo Andino del sur,,,,1.02,-77.51,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Groot 1991,FALSE
+170,La Estación,169,Alto Magdalena,Huila,San Agustín,,1.81063,-76.28998,1730,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,,"Duque, & Cubillos, 1981",FALSE
+171,La Estrella,170,Sierra Nevada,,,,11.0875027,-73.9363083,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Herrera 1985; Reichel-Dolmatoff 1986,FALSE
+172,La Ferrería,171,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+173,La Gaitana,172,Alto Magdalena,Huila,San Agustín,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Llanos, & Durán, 1983",FALSE
+174,La Hormiga,173,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.708061,-74.9117916,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Plazas; Falchetti; Sáenz & Archila 1993,FALSE
+175,La Iberia,174,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1981",FALSE
+176,La Isla,175,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.79414975,-75.22296323,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Angulo, 1983; Archila 1991; Santos & Ortiz-Troncoso 1986.",FALSE
+177,La Julia,176,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Drennan, 1993",FALSE
+178,La Llanada,177,Valles alto Calima y alto y medio del Cauca,,,,4.355374176,-76.29088383,,,,,,Habitación,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, 1986",FALSE
+179,La Loma,178,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Garcia, & Gutierrez, 1985",FALSE
+180,La Magnolia,180,Costa Pacífica,,,,1.661617094,-78.74732656,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Patiño, 1993",FALSE
+181,La Maporita,181,Tierras bajas orientales,,,,5.17409250,-72.55414952,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, et al. 1993; Peña, 1992.",FALSE
+182,La Marcela,182,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, & Gnecco, 1992",FALSE
+183,La Mireya,183,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.04251,-75.48144,,,,,,,En algunos referencias aparece como el Anclar 1.,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Reichel-Dolmatoff, 1986; Plazas, Falchetti; Sáenz & Archila 1993; Plazas & Falchetti 1981",FALSE
+184,La Muela,184,Altiplano Cundiboyacense,,,,5.55000,-73.36000,,,,,,,,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Pradilla, et al. 1991; Pradilla, Villate & Ortiz 1990;1992.",FALSE
+185,La Pedregosa 1,185,Magdalena medio,,,,6.051591,-74.11050,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1991",FALSE
+186,La Pedrera,186,Tierras bajas orientales,Amazonas,La Pedrera,,1°30'S,69°30',,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Hildebrand, &  Reichel, 1985",FALSE
+187,La Primavera,187,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, & Moseley 1970",FALSE
+188,La Propicia,188,Ecuador,,,,,,,,,,,,Verificar este sitio y la referencia.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rivera, 1984; Alcina, 1979; Bouchard, 1983",FALSE
+189,La Ribera,189,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Chacín, 1993",FALSE
+190,La Selva (Risaralda).,381,Valles alto Calima y alto y medio del Cauca,,,,5.01510560,-75.74560566,0,0,0,,,,En el catalogo de Erigaie aparece como Marsella-La Selva,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, 1996; 1996.",FALSE
+191,La Sofía,190,Valles alto Calima y alto y medio del Cauca,,,,4.500,-76.280,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Gähwiler 1983; 1989,FALSE
+192,La Soledad,191,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, 1986 cita a Plazas & Falchetti.",FALSE
+193,La Suiza,192,Valles alto Calima y alto y medio del Cauca,,,,3.849881459,-76.47484737,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Herrera, et al. 1982-83; Bray, et al. 1981; Scott 1981",FALSE
+194,La Tebaida,193,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bruhns, 1976",FALSE
+195,La Tolita,194,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bouchard, 1983",FALSE
+196,La Victoria,195,Macizo Andino del sur,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1978; 1992:9;",FALSE
+197,La Virginia,196,Valles alto Calima y alto y medio del Cauca,,,,3.570,-76.510,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray 1981; Bray, et al. 1981; Gahwiler 1989.",FALSE
+198,Laguna baja,197,Valles alto Calima y alto y medio del Cauca,,,,4.90520225,-75.35516720,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Jaramillo, 1989",FALSE
+199,"Landázuri, Loma del Colegio",198,Magdalena medio,Santader,,,6.2211642,-73.81427542,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Lleras, 1988",FALSE
+200,Las Animas,199,Sierra Nevada,,,,11.13622145,-73.92255203,,,,,,,Tiene arquitectura,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,,"Herrera, 1985",FALSE
+201,Las Cruces,200,Macizo Andino del sur,,,,0.853887611,-77.58939248,,,,,,,Este sitio tiene problemas cronológicos,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas1977-78 y Uribe 1976, 1977-78. Ver crítica en Salgado et al. 1995 y sobre la secuencia Capulí-Piartal-Tuza ver Cárdenas 1989, 1992; Doyon(1993. Uribe 1992. Cárdenas,1996.",FALSE
+202,Las Delicias-Bogotá,201,Altiplano Cundiboyacense,Cundinamarca,,,4.610,-74.220,,,,,,,,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,,"Enciso, 1989; 1991;1993; Cárdenas 1996; Delgado 1996",FALSE
+203,Las Delicias-Timbiquí,202,Costa Pacífica,,,,2.82459354,-77.71972256,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Patiño, 1987;1988",FALSE
+205,Las Mercedes,204,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, 1965: 122-30 en Stuiver 1969",FALSE
+206,Las Palmas 1,205,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.747911303,-74.99829436,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, et al. 1993; Plazas, et al. 1979; Plazas et al., 1981:14,98",FALSE
+207,Limoncito,206,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.6056138,-74.960072,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Plazas, et al. 1993; Plazas; Falchetti; Sáenz & Archila 1993",FALSE
+208,Llanadas,207,Alto Magdalena,,,,,,,,,,,Tumbas,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Ordoñez, 1995",FALSE
+209,LLano Los Gallos,208,Montaña Santandereana,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1990",FALSE
+210,Loma de López,209,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.78047203,-74.26606433,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1978; Archila 1993.",FALSE
+211,Loreto Yacu,210,Tierras bajas orientales,Amazonas,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bolian, 1972",FALSE
+213,Los Jagueyes,212,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1978",FALSE
+214,Los Santos,213,Montaña Santandereana,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Sutherland, 1971",FALSE
+215,Los Santos-Los Teres,214,Montaña Santandereana,,,,6.730,-73.130,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cadavid, 1984",FALSE
+216,Los Solares,215,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1990",FALSE
+217,Lusitania,216,Valles alto Calima y alto y medio del Cauca,,,,3.86832,-76.4665527,,,,,,,En el catalogo de Erigaie aparece como Valle del Dorado,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Monsalve 1985; Herrera et al. 1987;1992:,FALSE
+218,Lusitania,217,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Monsalve, 1985; Uribe, 1990",FALSE
+219,Maceo Torre,218,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Mejía, et al. 1992 en Piazzini 1994",FALSE
+220,Maina,219,Costa Pacífica,,,,1.9931,-78.631583,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, 1989; 1991",FALSE
+221,Malagana,220,Valles alto Calima y alto y medio del Cauca,Valle del Cauca,,,3.487001262,-76.35342885,,,,,,,"De este sitio proviene una colección ofebre que da pie a un ""nuevo"" cacicazgos.",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,,"Botiva, & Forero, 1991;  Herrera, Cardale & Bray, 1994; Herrera, Cardale & Rodríguez, 1994; Cardale & Herrera 1994; Archila 1996; Bray;  Herrera & Cardalel 1998;",FALSE
+222,Malambo,221,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.8597475,-74.77687409,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1962; 1981; 1995:28; Archila 1991",FALSE
+223,María Jacinta,222,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.64979975,-75.17253093,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1983; Archila 1991",FALSE
+224,Maridíaz,223,Macizo Andino del sur,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cárdenas, 1992",FALSE
+225,Marín,224,Altiplano Cundiboyacense,,,,,,2600,,,,,Habitación; funerario,"Restos fauna: Odocoileus s.p; Cunica  taczanowskii; Tayassu pecari, Cavia porcellus; Didelphis albiventris; caracoles - Plekocheilus sp.; Drymaeus gartus. Cultivos Phaseolus vulgaris; Cucurvita sp.",TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,,"Boada, 1984; 1987;1988; 1998; Boada et al, 1989; Boada et al, 1989a.",FALSE
+226,Marta,225,"Uraba, alto Sinú",,,,9.467892409,-75.61135767,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos,  & Ortíz, 1986; Van Zweden 1986; 1994; Archila 1993",FALSE
+227,Marusa,226,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+228,Mataje,227,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, 1986",FALSE
+229,Matecaña,228,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al.1995",FALSE
+230,Mazo-Tiestero 1,229,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos, 1994; Bermudez,1995",FALSE
+231,Mesita,230,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, 1972",FALSE
+232,Mesita A,231,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Duque, & Cubillos, 1983",FALSE
+233,Mesita B,232,Alto Magdalena,,,,1.886563628,-76.30171256,,,,,,Tumba,Estructuras funerarias con estatuaria.,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Duque, 1964; Duque & Cubillos, 1988; Reichel-Dolmatoff, 1972; Duque & Cubillos, 1983.",FALSE
+234,Mesita C,233,Alto Magdalena,,,,1.883985742,-76.30009609,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Cubillos 1978; 1980,FALSE
+235,Mina de Oro,234,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bischof, 1969",FALSE
+236,Minguimalo,235,Costa Pacífica,,,,4.801850123,-76.87449133,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff  & Dussan, 1962",FALSE
+237,Miraflores 1,236,Macizo Andino del sur,,,,0.890,-77.670,,,,,,,"En el Catalogo de Erigaie no se diferencoas Miraflores 1 de Mioraflores 2. La fecha IAN 23, aprece en el catalogo de Eriagia como de Pupiales, pero en este esta como de Miraflores.",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1977-78; Uribe 1977-1978; Plazas 1977-1978; Cardale 1977-1978; Perdomo, et al. 1974",FALSE
+238,Miraflores 2,237,Macizo Andino del sur,,,,0.89000,-77.61000,,,,,,,En el Catalogo de Erigaie no se diferencoas Miraflores 1 de Mioraflores 2.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1977-78; Uribe 1977-1978; Plazas 1977-1978; Cardale 1977-1978; Perdomo, et al. 1974.",FALSE
+239,Momil,238,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,9.2274472,-75.672861,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, 1957; 1974; 1986; Archila 1993; Reichel-Dolmatoff, & Dussan 1956; 1974; Foster & Lathrap 1975",FALSE
+240,Monsú,239,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.17995481,-75.45837908,,,,,,Habitación,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Reichel-Dolmatoff, 1985; 1986;  Angulo, 1995; Rodríguez 1988; Wippern 1987; Archila 1991 y Oyuela 1993.",FALSE
+241,Montañitas,240,Valles alto Calima y alto y medio del Cauca,,,,3.667627699,-76.54855362,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1981; Bray 1981;  Gahwiler, 1988; 1989.",FALSE
+242,Montecito,241,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,Habitación,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gahwiler, 1989",FALSE
+243,Moralba,242,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,Basurero,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, & Moseley 1970",FALSE
+244,Morelia,243,Alto Magdalena,,,,2.058358,-76.0965,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Llanos, 1987;1988;",FALSE
+245,Muelle Viejo,244,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Casas, 1991",FALSE
+246,Nahuange I,245,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Bray 1995,FALSE
+247,Negritos 5,246,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.61447,-75.03457,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, et al. 1993; Plazas, Falchetti; Sáenz & Archila 1993;",FALSE
+248,Nemocón,247,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cardale, 1976; Cardale, 1981.",FALSE
+249,Nemocón 4,248,Altiplano Cundiboyacense,Cundinamarca,Nemocón,,5°4´,73°53,,,,,,Habitación,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,,"Correal, 1979",FALSE
+250,Neusa,249,Altiplano Cundiboyacense,,,,5.177063172,-73.97900598,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rivera, 1992",FALSE
+251,Nuevo Colón,250,Altiplano Cundiboyacense,Boyacá,,,5.330,-73.480,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Lleras, 1986; 1989",FALSE
+252,Nuevo Río Claro,251,Valles alto Calima y alto y medio del Cauca,Cladas,,,4.99645,-75.5546472,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Herrera, & Moreno, 1988; 1990;",FALSE
+253,Ocache,252,Valles alto Calima y alto y medio del Cauca,,,,3.704315836,-76.50744196,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gahwiler, 1983",FALSE
+254,Oiba San Lorenzo,253,Montaña Santandereana,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Sutherland, 1971",FALSE
+255,Ordoñez I,254,Costa Pacífica,Valle,Calima,,4.077442304,-77.05534122,50,,,,,Habitación,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,"Salgado, & Stemper, 1995; Romero 1994, 1996",FALSE
+256,PAB II,255,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Herrera, et al. 1992",FALSE
+257,Palestina 2,256,Costa Pacífica,Antioquia,Yondó,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Lopéz, 1989;",FALSE
+258,Palestina,257,Magdalena medio,Chocó,,,4.166424869,-77.13963866,25,,,,,Habitación,"En el catalogo de Erigaie los sitios de Palestina se encuentran divididos en Palestina I, II, III, IV, V, sin embargo las  cooredenadas simepre son las mismas. Parece obdecer los números a sondeos en un mismo sitio y no a sitios diferentes. Gaspar Morcote coloca los resto paleobotánicos como pertenecientes a Palestina I.",FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,"Salgado, & Stemper, 1991;  Romero 1995; 1996",FALSE
+259,Palestina I,258,Costa Pacífica,,,,4.166424869,-77.13963866,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, & Stemper, 1991; Romero 1994, 1996",FALSE
+260,Palestina II,259,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+262,Palmar,260,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.600,-75.120,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1983; Archila 1991.",FALSE
+263,Palmas,261,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+264,Palmaseca,262,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,Tumba,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, & Moseley, 1970;Cubillos, 1984:289",FALSE
+265,Palmira,263,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.98,-74.31,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1978",FALSE
+266,Palogordo,264,Montaña Santandereana,,,,6.73306,-73.213083,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Lleras, 1986; Lleras, &  Vargas, 1990:129",FALSE
+267,Papayo,265,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.659669545,-75.03823308,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, et al. 1993",FALSE
+268,Parámo de Peña Negra,266,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Herrera, et al. 1992",FALSE
+269,Pavitas,267,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gahwiler, 1988",FALSE
+270,Pazu 1,268,"Uraba, alto Sinú",,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+271,Peña Roja,269,Tierras bajas orientales,Amazonas,Araracuara,,,,200,,,,,"Habitación, taller",,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,"Cavelier, et al.1995; Gnecco & Mora 1997; Morcote 1994; Llanos, J. M. 1995; 1997; Piperno & Pearsal 1998; Mora 2001; Mora & Gnecco 2003",TRUE
+272,Peñitas,270,Altiplano Cundiboyacense,Boyacá,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Boada, et al. 1989",FALSE
+273,Peñones de Bogotá,271,Magdalena medio,,,,6.399353378,-74.41046746,,,,,,,Transición de cazadores recolectores a agrícultores.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1990, 1992; López, & Botero, 1993",FALSE
+274,Piedra Pintada,272,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Becerra, 1985",FALSE
+275,Pikotsutsikchk,273,Alto Magdalena,Cauca,Silvia,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Urdaneta, 1991",FALSE
+276,Pimienta 5,274,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.664170712,-75.04578466,,,,,,,,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,,"Plazas, et al. 1993; Plazas; Falchetti; van der Hammen &  Botero 1992",FALSE
+277,Pisba,275,Altiplano Cundiboyacense,,,,6.010,-72.660,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cárdenas, 1994",FALSE
+278,Porta Alegre,276,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Therrien & Enciso, 1991",FALSE
+279,Pozo de la Iglesia,278,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Valdez, 1987",FALSE
+280,Pto Caldas,279,Tierras bajas orientales,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Morey, 1975",FALSE
+281,Pubenza,280,Altiplano Cundiboyacense,,,,4.440,-74.660,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Van der Hammen, 1986; Cardale, 1976",FALSE
+282,Pubenza,281,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+283,Puerto Arturo,282,Tierras bajas orientales,,,,-0.56097,-72.408516,,,,,,Habitación,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,TRUE,,"Herrera, et al. 1989;  Cavelier, et al. 1990; Mora 2001",FALSE
+284,Puerto Berrio,283,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, en prensa",FALSE
+285,Puerto Caldas,284,Tierras bajas orientales,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Morey, 1975",FALSE
+286,Puerto Chacho,285,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.250,-75.320,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Legros, 1990; 1992 :Rodríguez 1988; Archila 1991; Oyuela 1993; Arevalo & Maldonado 1990.",FALSE
+287,Puerto Hormiga,286,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10°8' N,75°29´,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Reichel-Dolmatoff, 1965; 1972;  Angulo, 1995",FALSE
+288,Puerto Nuevo,287,Tierras bajas orientales,Meta,,,2°23´ N,73 °7,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1993",FALSE
+289,Purilia,288,Valles alto Calima y alto y medio del Cauca,,,,3.653274227,-76.59172002,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gähwiler-Walder, 1988",FALSE
+290,Purutal,289,Alto Magdalena,,,,1.908322356,-76.32655172,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cubillos,1986",FALSE
+291,Quebrada Mulas,290,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Botiva, et al. 1991",FALSE
+292,Quebraditas,291,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Garcia, & Gutierrez, 1985",FALSE
+293,Quinchana,292,Alto Magdalena,,,,,,,,,,,Habitación,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Llanos, & Durán, 1983",FALSE
+294,R 10 (I-II),293,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+295,R 19,294,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+296,R 30-II,295,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+297,R 36-I,296,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"DeBoer, 1994",FALSE
+298,Rancho Grande,297,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gahwiler, 1988",FALSE
+299,Río Munquidó,298,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Herrera, et al. 1982-83",FALSE
+300,Rotinet,299,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.52297,-75.06338,,,,,,,En el catalogo de Eriagia aparece como  Guájaro-Rotinet,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Angulo,1986; 1988; 1995; Rodríguez 1988; Archila 1991; Oyuela 1993.",FALSE
+301,Sachamate,300,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,En el catalogo de Erigaie aparece solo como Sitio V-12,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cubillos, 1984",FALSE
+302,Sahagún-Colomboy,301,Magdalena medio,Córdoba,Sahagún,,8.920,-75.430,,,,,,,En el catalogo del Erigaie sale sin el Sahagún.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Botiva, et al. 1994",FALSE
+303,Salcedo I,302,Altiplano Cundiboyacense,,,,4.538669793,-74.6129106,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"Mosquera Rojo Inciso, Mosquera Roca Triturada","Peña, 1991",FALSE
+304,Samaria,303,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,Tumba,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, 1993",FALSE
+305,San Antonio,304,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Blanco, 1993",FALSE
+306,San Isidro,305,Valles alto Calima y alto y medio del Cauca,Depto Cauca,Morales,,,,1690,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,,Gnecco & Bravo 1994; Gnecco & Mora 1997,FALSE
+308,San Jacinto 2,307,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,9.830,-75.110,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Oyuela, 1993; 1987; Oyuela & Rodríguez 1995; Archila 1993; Legros; Rodríguez & Pauly 1988",FALSE
+309,San Jacinto I,308,Llanuras del Caribe cuencas bajas Sinú y San Jorge,Bolívar,San Jacinto,,9.836563815,-75.07906321,,,,,,,"Para la información paleobotánica del sitio ver  Bonzani, 1998.",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,,"Oyuela, 1993; 1987; Oyuela & Rodríguez 1995; Archila 1993; Legros; Rodríguez & Pauly 1988;  Bonzani, 1998:26",FALSE
+310,San José del Nus,309,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Mejía, et al. 1992; Piazzini 1994",FALSE
+311,San Juan,310,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,10.63979581,-75.1899476,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Angulo, 1983",FALSE
+312,San Juan de Bedout,311,Magdalena medio,Antioquia,Puerto Berrío,,6.605764216,-74.44550506,,,,,,,"En el catalogo de Erigaie se diferencias San Juan de Bedout 1 y 4, pero los dos quedan en el mismo sitio según las coordenadas, así que suponemos que se trata de diferentes sondeos en un mismo sitio.",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,Artefactos líticos y desechos de talla en cuarzo y Chert. Raspadores plano convexos.,"Lopéz, 1989, 1998",FALSE
+313,San Luis,312,Costa Pacífica,,,,3.930011,-76.776961,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1988",FALSE
+314,San Pedro,313,"Uraba, alto Sinú",,,,8.5113333,-74.91393055,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, et al. 1993",FALSE
+315,Santa Helena,314,Macizo Antioqueño,,,,,,,,,,,,En las tablas de la fundación sale como  El Carmelo.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE, Marrón Inciso.,"Santos, 1994",FALSE
+316,Santa Rosa VP1226,315,Alto Magdalena,,,,2.190,-76.080,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Drennan, 1993",FALSE
+317,Santa Rosa - Herrera,316,Magdalena medio,,,,3.39072,-75.88225,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1990",FALSE
+318,Santa Sofia,317,Tierras bajas orientales,Amazonas,,,-3.92117,-70.16617,,,,,,,Sitio 14,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bolian, 1972",FALSE
+320,Santiago,319,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Urdaneta, 1988",FALSE
+321,Santo Domingo Buenavista,320,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Falchett, 1979; Reichel-Dolmatoff 1986:178",FALSE
+322,Sauzalito,321,Valles alto Calima y alto y medio del Cauca,,,,3.940,-76.520,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1988",FALSE
+323,Segovia,322,Alto Magdalena,Cauca,,,,,,,,,,Tumba,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Uribe, 1990",FALSE
+324,Simijaca,323,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Uribe, 1990",FALSE
+325,Siquianeca,324,Altiplano Cundiboyacense,,,,5.58000,-73.48000,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Boada 1987; 1991;  Boada et al. 1988, 1989",FALSE
+326,Sismógrafo,325,Magdalena medio,,,,5.574033726,-74.89225446,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al.1995",FALSE
+327,Soatá,326,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Pérez, 1990",FALSE
+328,Socotá (?),327,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cárdenas, 1994",FALSE
+329,Sopetrán,328,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Castillo, 1988",FALSE
+330,Sueva I,329,Altiplano Cundiboyacense,,,,4.80550,-73.76604,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1979",FALSE
+331,T-LP-1,330,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Bruhns, 1995",FALSE
+332,Tajumbina,331,Macizo Andino del sur,Nariño,La Cruz,Tajumbina,1.572246371,-76.94252995,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Cadavid & Ordoñez,1989; Cadavid, 1993",FALSE
+333,Tañik,332,Alto Magdalena,Cauca,Silvia,,2.63952,-76.342761,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Urdaneta, 1991",FALSE
+334,Tapias I,333,Altiplano Cundiboyacense,Boyacá,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Boada, et al. 1989",FALSE
+335,Tequendama,334,Altiplano Cundiboyacense,Cundinamarca,Soacha,,4°35' N,74°13',,,,,,"Habitación, funerario",,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,"Correal, 1973",FALSE
+336,Tequendama I,335,Altiplano Cundiboyacense,Cundinamarca,Soacha,,4.536623653,-74.27739769,,,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,"Correal, 1980; Correal & van der Hammen 1977; van der Hammen & Correal 1978; van der Hammen,  Correal & van Klinken 1990",TRUE
+337,Tibito I,336,Altiplano Cundiboyacense,,,,4.98648,-73.95596,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1981; van der Hammen, 1986",FALSE
+338,Tigrera,337,Llanuras del Caribe cuencas bajas Sinú y San Jorge,Magdalena,Ciénega,,11.06155849,-74.22112076,,,,,,,En el catalogo Erigaie aparece como Papare-La Tigrera.,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Langebaek, 1987",FALSE
+339,Tigrera,338,Sierra Nevada,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+340,Tocaima,339,Magdalena medio,,,,4.440,-74.660,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Mendoza, & Quiazua, 1990",FALSE
+341,Tocarema 5,340,Altiplano Cundiboyacense,,,,4.73503,-74.45633,,,,,,Habitación,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Peña, 1991",FALSE
+342,Tola del Pajarito,341,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Valdez, 1987",FALSE
+343,Tola Pajarito,342,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Valdez, 1987",FALSE
+344,Tola Walberto,343,Ecuador,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Valdez, 1987",FALSE
+345,Torre 25,344,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, & Mendoza, 1994",FALSE
+346,Torre 26,345,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, & Mendoza, 1994",FALSE
+347,Torre 54,346,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, & Mendoza, 1994",FALSE
+348,Tres Esquinas,347,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1981",FALSE
+349,Ubalá,349,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Botiva, 1984",FALSE
+350,Ubaté,350,Altiplano Cundiboyacense,,,,,,,,,,,,"Este sitio arqueológico no existe, aparece como el sitio de procedencia de una momia de la cual se obtuvieron muestras para fechar, como tal el sitio solo cuenta con un estatus mitico.",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Cárdenas 1994; 1996; 1997,FALSE
+351,Ullumbe,351,Alto Magdalena,,,,1.86,-76.26,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cubillos, 1991",FALSE
+352,UPTC,348,Altiplano Cundiboyacense,,,,5.510,-73.380,,,,,,"Habitación, entierro, basurero",,TRUE,TRUE,TRUE,FALSE,FALSE,TRUE,TRUE,,"Castillo, 1984",FALSE
+353,Valle de Aburrá 22,352,Macizo Antioqueño,,,,6.270,-75.580,,,,,,,V.A 022Valle de Aburrá 22,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Marrón Inciso.,"Santos 1994; 1995; 1995; Bermúdez 1995; Santos 1995;  Castillo 1992. Santos et al, 1998",FALSE
+354,V. A. 046,353,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+355,V. A. 126,354,Macizo Antioqueño,,,,6.152,-75.667,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,Marrón Inciso,"Castillo, 1995",FALSE
+356,Varsovia,355,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1981",FALSE
+357,Varsovia,356,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+358,Vélez,357,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1983",FALSE
+359,Villa Azul,358,Tierras bajas orientales,Amazonas,,,,,,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,"Herrera, Cavelier & Mora, 1987",FALSE
+360,Villa Azul-Elias,359,Tierras bajas orientales,Amazonas,,,,,,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,,,FALSE
+361,Villa Azul-Esteban,360,Tierras bajas orientales,,,,,,,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+362,Villa Azul-Moreno,361,Tierras bajas orientales,,,,,,,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+363,Villa Azul-Paqui,362,Tierras bajas orientales,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, Cavelier & Mora, 1987",FALSE
+364,Villa de Leiva,363,Altiplano Cundiboyacense,,,,5.600,-73.540,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Van der Hammen, 1986",FALSE
+365,Villa Elisa,364,Valles alto Calima y alto y medio del Cauca,,,,5.092,-76.065,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cano, 1995",FALSE
+366,Villa Helena 1,365,Magdalena medio,,,,6.421502844,-73.93846008,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1988; López, 1991",FALSE
+367,Villa Helena 1,366,Magdalena medio,,,,"6°19'11""",73°50',,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+368,Vistahermosa 14,367,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1986;1987:17",FALSE
+369,Yacimiento 016,368,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Piazzini 1993 cita a Castillo, 1992.",FALSE
+370,Yacimiento 021,369,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1989 en Piazzini 1994",FALSE
+380,Yacimiento 144,370,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Piazzini 1993 cita a Castillo, 1992.",FALSE
+381,Yacimiento 200,371,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Piazzini 1993 cita a Castillo, 1992.",FALSE
+382,Yacimiento 209,372,Macizo Antioqueño,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Piazzini 1993 cita aCastillo, 1992",FALSE
+383,Yocambó,373,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, & Moseley 1970",FALSE
+384,Yolombó,374,Macizo Antioqueño,Antioquia,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE, Marrón Inciso,"Piazzini, 1994, cita a Castillo, 1992",FALSE
+385,Zipacón,375,Altiplano Cundiboyacense,,,,4.75775,-74.38856,,,,,,Abrigo rocoso,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,,"Correal, & Pinto, 1983;  Ardila 1985; Langebaek, 1995;  Bray 1995",FALSE
+386,Zipaquirá V,376,Altiplano Cundiboyacense,,,,5.019541522,-74.01721052,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cardale, 1981",FALSE
+387,Zipaquirá,377,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Lleras, 1989",FALSE
+388,Zipaquirá II,378,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cardale, 1981",FALSE
+389,Zipaquirá III,379,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cardale,1981",FALSE
+400,Zipaquirá V,380,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
+401,Aguazul CC2,,Tierras bajas orientales,,,,5.149,72.3434,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Alarcón &  Segura 1998,FALSE
+402,Alejandría-Yacimiento 12,,,,,,6.02582385,-74.52241477,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+403,Alto de Chinas,,Alto Magdalena,,,,1.30,-76.15,0,0,0,,,,Tiene un montículo,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Forero, 1997",FALSE
+404,Altomira-Yacimiento 14,,,,,,5.85315172,-74.30918336,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+405,Arrancaplumas,,Magdalena medio,,,,5.190,-74.770,0,0,0,,,,Completar referencias cifuentes,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Cifuentes 1991; 1993;,FALSE
+406,Bugalagrande-PK 241+400,,,,,,4.220,-76.170,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
+407,Alto de Quinchana,,Alto Magdalena,,,,1.885785,-76.33446,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Duque, 1966; Llanos &  Durán 1983.",FALSE
+408,La Llanada,,Valles alto Calima y alto y medio del Cauca,,,,4.314821384,-76.25003296,0,0,0,,,,En la tabla de la Fundación aparece como Alto de la Soledad,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Salgado, 1986",FALSE
+409,Atuncela II,,,Valle del Cauca,,,3.73606139,-76.67961962,0,0,0,,,,Información Erigaie.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Alarcón,1995, 1996; Bernal,1995",FALSE
+410,Barbosa-Yacimiento 30,,,Antioquia,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CISH 1996,FALSE
+411,Caicedonia-PK 11+810,,,,,,4.340,-75.840,0,0,0,,,,Información Erigaie,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
+412,Cambalache,,Valles alto Calima y alto y medio del Cauca,,,,4.48376514,-75.77995638,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, 1996",FALSE
+413,Campoalegre-Yacimiento 15,,,,,,5.848196235,-75.4067793,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Monsalve; Vergara & Tabares 1996,FALSE
+414,Ca 6 - P2,,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.698739265,-74.956653,0,0,0,,,,Canal artificial 6.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,"Cerámica Granulosa Incisa, Rabón Modelada Incisa y Modelada Pintada.","Plazas, et al. 1993; Plazas,  Falchetti; van der Hammen &  Botero 1988",FALSE
+415,Palmira-Cantarana,,Valles alto Calima y alto y medio del Cauca,,,,3.56583111,-76.44696207,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, 1996",FALSE
+416,Carate 17,,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.625992915,-75.12544103,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Plazas, Falchetti; 1981; Plazas; Falchetti; Sáenz & Archila 1993",FALSE
+417,Ciénaga del Tigre I,,Magdalena medio,,,,7.09185127,-73.82602476,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Gómez &  Correcha 1995,FALSE
+418,Cipango-Yacimiento 11,,,,,,6.01101242,-74.49955217,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+419,City Gate,,Valles alto Calima y alto y medio del Cauca,,,,5.94515241,-77.18242560,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, 1996",FALSE
+420,El Antojo-Yacimiento 4,,,,,,6.05519042,-76.73514085,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Múnera, Monsalve & Botero 1997",FALSE
+421,El Bosque-Yacimiento 22,,,,,,6.580,-75.010,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos; Bermudez; Correa. &  Ospina  1996,FALSE
+422,El Carmelo,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Salgado 1996,FALSE
+423,El Diamante-Yacimiento 32,,,,,,6.44491823,-75.34318916,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos, Bermudez, Correa &  Ospina 1996",FALSE
+424,El Gallo II,,"Uraba, alto Sinú",,,,8.180,-76.070,0,0,0,,,,Las coordenadas para el gallo I y el Gallo II son las mismas.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Botiva, et al. 1991",FALSE
+425,El Indio I-Yacimiento 2,,,Antioquia,,,6.39223485,-75.44110322,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Botero; Muñoz; Cadavid & Ospina 1997,FALSE
+426,El Ingenio-Yacimiento 14,,,,,,6.50090233,-74.76689694,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CISH 1996,FALSE
+427,El Jazmín- Yacimiento 10,,,,,,6.05303904,-76.76603397,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Monsalve & Botero 1997,FALSE
+428,El Mango-Yacimiento 9,,,,,,4.976,-75.655,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Monsalve; Vergara & Tabares 1996,FALSE
+429,El Oro II,,,,,,4.48376514,-75.77995638,0,0,0,,,,Se encontro maíz,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,"Salgado, 1996; Stuiver et al. 1993.",FALSE
+430,El Pollo,,,,,,4.81468103,-75.70184643,0,0,0,,,,En el catalogop Erigaie aparece como El Pollo 023/025,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Rodríguez & Montejo 1996,FALSE
+431,El Pomo,,,,,,,,0,0,0,,,,Aparece en el catalogo Erigaie como  El Pomo-PK 7+200,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1997",FALSE
+432,El Porvenir-Yacimiento 03,,,,,,6.53894693,-75.09962913,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos, 1996",FALSE
+433,El Porvenir-Yacimiento 26,,,,,,6.530,-75.080,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos, 1996",FALSE
+434,El Radio-Yacimiento 10,,,,,,4.976,-75.655,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Monsalve; Vergara &Tabares 1996,FALSE
+435,El Roble-Yacimiento 35,,,,,,5.850,-74.000,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+436,Garabato-Yacimiento 5,,,,,,6.44407082,-75.73469038,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera & Botero 1997,FALSE
+437,Guacanas,,Alto Magdalena,,,,2.223130319,-75.64279002,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Llanos 1993.,FALSE
+438,Guayacán-Yacimiento 01,,,,,,5.86647931,-73.96723188,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CAIN 1996,FALSE
+439,Japón 3,,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.686416305,-74.96870817,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE, modelada pintada,"Plazas, et al. 1981; Plazas; Falchetti & Sáenz 1979",FALSE
+440,La Angostura-Yacimiento 4,,,,,,6.180,-74.620,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Castillo 1997,FALSE
+441,La Argelia-Yacimiento 30,,,,,,5.82634135,-74.09301570,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+442,La Cabaña 1,,,,,,3.70709950,-76.62931569,0,0,0,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,,Alarcón 1995; 1996; Berbal 1995; Rojas 1995,FALSE
+443,La Champiñorera I-Yacimiento 6,,,,,,6.05601204,-76.74760548,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Monsalve & Botero 1997,FALSE
+444,La Floresta-Yacimiento 08,,,,,,-4.38991724,-83.04473042,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CISH 1996,FALSE
+445,La Herradura-Yacimiento 27,,,,,,6.53593357,-74.97243113,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos 1996,FALSE
+446,La laguna-Yacimiento 23,,,,,,6.54139946,-74.99983251,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos 1996,FALSE
+447,San Roque,,,,,,6.51010832,-74.84167022,0,0,0,,,,En el catalogo de Erigaie sale como La Linda-Yacimiento 16.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos et al 1998; CISH 1996,FALSE
+448,La Mejora-Yacimiento 17,,,,,,8.180,-76.070,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+449,La Morela-Yacimiento 06,,,,,,6.48886649,-74.41902299,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos;Bermudez; Correa & Ospina  1996,FALSE
+450,La Palma-Yacimiento 1,,,Antioquia,,,6.39223485,-75.44110322,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Botero; Muñoz; Cadavid &  Ospina 1997,FALSE
+451,La Quinta,,,,,,4.12816589,-75.08953775,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Pulido 1996,FALSE
+452,La Tebaida-PK 39+565,,Valles alto Calima y alto y medio del Cauca,,,,4.460,-75.790,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Bernal 1997,FALSE
+453,Las Delicias-Yacimiento 27,,,,,,5.850,-74.000,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna &. Mejía 1994,FALSE
+454,Las Flores-Yacimiento 07,,,,,,6.48974059,-74.46151237,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos; Bermudez; Correa & Ospina 1996,FALSE
+455,Los Achiles,,Magdalena medio,,,,5.68896428,-74.74366173,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al 1995; Morcote & Cavelier 1999, Méndez & Escobar 2000.",FALSE
+456,Los Arrayanes-PK 91+150,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1997",FALSE
+457,Los Planes-Yacimiento 23,,,,,,6.450,-75.170,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos; Bermudez; Correa & Ospina 1996,FALSE
+458,Majagual-Yacimiento 39,,,,,,6.50322176,-74.85151324,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos, 1996",FALSE
+459,Mamorón,,Sierra Nevada,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Oyuela 1987,FALSE
+460,Matecaña,,,,,,5.596795631,-74.84237919,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al.1995",FALSE
+461,Meremberg,,,,,,2.21081,-76.12034,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Piñeros 1989,FALSE
+462,Molino Viejo-Yacimiento 30,,,,,,6.48985082,-75.26737877,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos; Bermudez; Correa & Ospina 1996,FALSE
+463,Moniquirá-Yacimiento 62,,,,,,5.63330577,-73.54594740,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CAIN 1996,FALSE
+464,Montelíbano-Yacimiento 13,,,,,,8.08992408,-75.84769487,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Nieto &. Espinosa 1995,FALSE
+465,Montelíbano-Yacimiento 12,,,,,,8.01831849,-75.67506473,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Nieto &. Espinosa 1995,FALSE
+466,Montenegro-Finca Chapinero,,,,,,4.550,-75.790,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Salgado, 1997",FALSE
+467,Obando-PK 188+700,,,,,,4.570,-75.980,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
+468,Palmira-PK1+500,,Valles alto Calima y alto y medio del Cauca,,,,3.51120435,-76.31489524,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1997",FALSE
+469,Palmira-PK321+500,,Valles alto Calima y alto y medio del Cauca,,,,3.530,-76.300,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1997; Bernal 1997.",FALSE
+470,Palmira-Pk321+400,,Valles alto Calima y alto y medio del Cauca,,,,3.66409910,-76.41143188,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1997",FALSE
+471,Pipintá,,Magdalena medio,,,,5.30719788,-74.74955404,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gómez & Correcha, 1995",FALSE
+472,Potrero Chico-PK 185,,Valles alto Calima y alto y medio del Cauca,,,,4.68159116,-75.94458343,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Rodríguez 1996,FALSE
+473,Potrero Chico-PK 185+600,,,,,,4.67381923,-75.94675855,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Rodríguez 1996,FALSE
+474,Potreroalto,,Altiplano Cundiboyacense,Cundinamarca,Soacha,,4.612809874,-74.28007692,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Orrantia 1997: 1996-1997;,FALSE
+475,Puerto Chapetón,,,,,,4.0307613,-74.866751,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Cifuentes 1994,FALSE
+476,Puerto Gaira,,Sierra Nevada,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Oyuela, 1987",FALSE
+477,Perico,,,,,,5.2611,-74.79111,0,0,0,,,,En el Catalogo de Eriagie aparece como Quebrada El Perico.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cifuentes, 1993",FALSE
+478,Rodapasos,,Alto Magdalena,,,,1.978016,-75.91753,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Sánchez, 1991",FALSE
+479,Romelia 100,,,,,,4.84174632,-75.67475543,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Rodríguez  &. Montejo 1996,FALSE
+480,San Isidro-Guaitarilla,,Macizo Andino del sur,,,,,,0,0,0,,,,El sitio como tal no existe pues los materiales fechados son de un sitio excavado por huaqueros a los cuales el museo del oro les compro los materiales de madera y oro. Además las investigadoras los entrevistaron para hacer el artículo. Por eso no tiene coordenadas.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Cardale & Falchetti 1980,FALSE
+481,San Nicolás,,Alto Magdalena,,,,2.323312735,-76.28374184,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Espejo & Rangel 1989; Piñeros 1989.,FALSE
+482,San Pedro-PK276+700,,,,,,4.01163690,-76.24945044,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1996",FALSE
+483,San Pedro-PK276+750,,,,,,3.990,-76.250,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Bernal 1997,FALSE
+484,San Pedro-PK278+200,,,,,,3.990,-76.250,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Bernal 1997,FALSE
+485,San Ramón 1,,Peninsula de la Guajira y corredor del Cesar,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Ardila, 1986",FALSE
+486,San Vicente-Yacimiento 2,,,,,,6.42951271,-75.73328283,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera  & Botero 1997,FALSE
+487,Santa Cecilia-Yacimiento 8,,,,,,5.95824213,-74.44740284,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+488,Santa Rosa-PK 1+750,,,,,,4.891,-75.660,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
+489,Santa Rosa-PK 2+560,,,,,,4.891,-75.660,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
+490,Santa Rosa-PK 2+706,,,,,,4.891,-75.660,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
+491,Támesis-Yacimiento 19,,,,,,5.68793304,-75.68729166,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Martínez, 1997",FALSE
+492,Tierralta-Yacimiento 10,,,,,,8.180,-76.070,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Nieto & Espinosa 1995,FALSE
+493,Torre 209,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López; Nieto & Correcha 1994;  López, 1994",FALSE
+494,Torre 75,,,,,,4.520,-74.81000,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,López; Nieto & Correcha 1994,FALSE
+495,Turbo-Yacimiento 06,,,,,,8.110,-76.710,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Nieto & Espinosa 1995,FALSE
+496,Belén Altavista La Perla,,,,,,,,0,0,0,,,, El número del sitio en el catalogo de Erigaie es V.A 046,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Castillo, 1995",FALSE
+497,Valle de Aburrá 98,,Macizo Antioqueño,,,,6.168474409,-75.64408626,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Piazzini 1993, Castillo, 1992; Castillo, 1995",FALSE
+498,El Ranchito,,Macizo Antioqueño,,,,6.180,-75.640,0,0,0,,,,V. A. 097 Sondeo 1.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Piazzini 1993; Castillo, 1992",FALSE
+499,La Guayabala,,Macizo Antioqueño,,,,6.270,-75.580,0,0,0,,,,V.A 041,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Piazzini 1993; Castillo, 1992; Bermudez,1995",FALSE
+500,Villa Lucero-Yacimiento 12,,,,,,6.53698880,-75.08425749,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos, 1996",FALSE
+501,Yolombó-Yacimiento 16A,,,,,,6.56243710,-74.96542651,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CISH 1996,FALSE
+502,Soacha,,Altiplano Cundiboyacense,,,,,,0,0,0,,,,,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Botiva 1988; Rodríguez 1987; 1988; Polanco, Herazo & Rodríguez 1990; Reichel-Dolmatoff, 1943",FALSE
+503,Lucerna,,Valles alto Calima y alto y medio del Cauca,,,,,,0,0,0,,,Habitación; Tumba,Bugalagrande hacienda Lucerna.,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Salgado, 1997",FALSE
+504,Buenavista (Boyacá?),,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Botiva, 1989",FALSE
+505,Miguel Guiza,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Lleras 1988,FALSE
+506,Sabana Alta,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Lleras 1988,FALSE
+507,Retiro,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Lleras 1988,FALSE
+508,Los Litigios,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Lleras 1988,FALSE
+509,Cueva del Indio,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Lleras 1988,FALSE
+510,Cueva de las Flores,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Lleras 1988,FALSE
+511,Buenavista (Santander),,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Lleras 1988,FALSE
+512,La Aldea,,Magdalena medio,Tolima,Chaparral,La Aldea,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,Cerámica Buga,Rodríguez 1991,FALSE
+513,Galindo I,,Altiplano Cundiboyacense,,,,,,0,0,0,,,,Además se encontro cerámica Muisca -Guatavita Desgrasante Tiestos y Funza Laminar Duro. Para el periodo reciente se tiene Raquira Desgrasante Arrastrado y Chocontá Vidriado.,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,"Mosquera Rojo Triturada; Mosquera Rojo Inciso; Zipaquirá Desgrasante de Tiestos, para Herera; Tunjuelito Cuarzo Fino; Guatavita Desgrasante Gris.",Pinto 2003:47,TRUE
