@@ -64,8 +64,8 @@
     <svg></svg>
 
 <script>
-      var width = 1000,
-        height = 700,
+      var width = 750,
+        height = 800,
         centered;
 
       // Define color scale
@@ -75,9 +75,9 @@
         .range(['#fff', '#94bbba']);
 
       var projection = d3.geo.mercator()
-        .scale(2100)
+        .scale(2300)
         // Center the Map in Colombia
-        .center([-74, 4.5])
+        .center([-76, 3])
         .translate([width / 2, height / 2]);
 
       var path = d3.geo.path()
@@ -255,7 +255,7 @@
             .append("circle")
             .attr("transform", function (d) {
               return "translate(" + projection([
-                -85.3, sorted_regions.indexOf(d)*0.5 + 6.5
+                -83.1, sorted_regions.indexOf(d)*0.5 + 6.05
               ]) + ")";
             })
             .attr("r", 5)
@@ -268,7 +268,7 @@
             .append("text")
             .attr("transform", function (d) {
               return "translate(" + projection([
-                -84.8, sorted_regions.indexOf(d)*0.5 + 6.4
+                -82.8, sorted_regions.indexOf(d)*0.5 + 6
               ]) + ")";
             })
             .style("font-size", "8pt")
