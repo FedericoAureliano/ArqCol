@@ -72,7 +72,7 @@
       var color = d3.scale.linear()
         .domain([1, 20])
         .clamp(true)
-        .range(['#fff', '#409A99']);
+        .range(['#fff', '#94bbba']);
 
       var projection = d3.geo.mercator()
         .scale(2100)
@@ -147,7 +147,7 @@
         // Highlight the clicked province
         geoLayer.selectAll('path')
           .style('fill', function (d) {
-            return centered && d === centered ? '#D5708B' : fillFn(d);
+            return centered && d === centered ? '#94bbba' : fillFn(d);
           });
 
         // Zoom
@@ -164,7 +164,7 @@
         return d.Región ? String(d.Región) : d;
       }
 
-      var sorted_regions = ["N/A"];
+      var sorted_regions = [" "];
 
       // Get province color
       function regionFillFn(d) {
@@ -172,31 +172,31 @@
         if (str.length > 2 && sorted_regions.indexOf(str) < 0) { sorted_regions.push(str); sorted_regions.sort().reverse();}
 
         if ("Tierras bajas orientales" == str) {
-          return "#660066";
+          return "#FF0000";
         } else if ("Peninsula de la Guajira y corredor del Cesar" == str) {
-          return "#cccc00";
+          return "#00FFFF";
         } else if ("Uraba, alto Sinú" == str) {
-          return "#cc0000";
+          return "#0000FF";
         } else if ("Montaña Santandereana" == str) {
-          return "#cc6600";
+          return "#0000A0";
         } else if ("Macizo Andino del sur" == str) {
-          return "#33cc33";
+          return "#ADD8E6";
         } else if ("Costa Pacífica" == str) {
-          return "#003300";
+          return "#800080";
         } else if ("Macizo Antioqueño" == str) {
-          return "#cc33ff";
+          return "#FFFF00";
         } else if ("Llanuras del Caribe cuencas bajas Sinú y San Jorge" == str) {
-          return "#009999";
+          return "#FF00FF";
         } else if ("Magdalena medio" == str) {
-          return "#ff8080";
+          return "#FFA500";
         } else if ("Sierra Nevada" == str) {
-          return "#663300";
+          return "#A52A2A";
         } else if ("Valles alto Calima y alto y medio del Cauca" == str) {
-          return "#669999";
+          return "#800000";
         } else if ("Alto Magdalena" == str) {
-          return "#ff9933";
+          return "#008000";
         } else if ("Altiplano Cundiboyacense" == str) {
-          return "#003399";
+          return "#808000";
         }
         else {
           return "#000";
