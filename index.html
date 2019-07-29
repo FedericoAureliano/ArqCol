@@ -53,7 +53,7 @@
     <br>
 
     <select id="etapa">
-      <option value="Total">Todas Las Etapas</option>
+      <option value="Total">Todas Las Etapas (14000 a.C. - Presente)</option>
       <option value="Republicano">Etapa Republicano (1800 d.C. - Presente)</option>
       <option value="Colonial">Etapa Colonial (1600 d.C. - 1800 d.C.)</option>
       <option value="Cacicazgos">Etapa Cacicazgos (1000 a.C. - 1600 d.C.)</option>
@@ -164,7 +164,7 @@
         return d.Región ? String(d.Región) : d;
       }
 
-      var sorted_regions = [];
+      var sorted_regions = ["N/A"];
 
       // Get province color
       function regionFillFn(d) {
@@ -218,7 +218,16 @@
         // Draw each site as a circle
         pointsLayer.selectAll("circle")
           .data(pointData)
-          .enter().append("circle", "circle")
+          .enter()
+          .append("a")
+          .attr("xlink:href", function (d) {
+              var lat = d.Latitud;
+              if (lat > 0 || !String(lat).startsWith("-")) {
+                lat = "+" + lat;
+              }
+              return "http://maps.google.com/maps?t=k&q=loc:" + lat + ", " + d.Longitud; 
+            })
+          .append("circle", "circle")
           .attr("r", function (d) {
             return d.Total*0.5;
           })
@@ -248,7 +257,7 @@
             .append("circle")
             .attr("transform", function (d) {
               return "translate(" + projection([
-                -85.3, sorted_regions.indexOf(d)*0.5 + 6.8
+                -85.3, sorted_regions.indexOf(d)*0.5 + 6.5
               ]) + ")";
             })
             .attr("r", 5)
@@ -261,7 +270,7 @@
             .append("text")
             .attr("transform", function (d) {
               return "translate(" + projection([
-                -84.8, sorted_regions.indexOf(d)*0.5 + 6.7
+                -84.8, sorted_regions.indexOf(d)*0.5 + 6.4
               ]) + ")";
             })
             .style("font-size", "8pt")
