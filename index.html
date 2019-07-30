@@ -220,25 +220,19 @@
           .enter()
           .append("a")
           .attr("xlink:href", function (d) {
-            var lat = d.Latitud;
-            if (lat > 0 || !String(lat).startsWith("-")) {
-              lat = "+" + lat;
-            } else {
-              lat = String(lat);
-            }
+            var lat = String(d.Latitud);
             lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
-            lat = parseFloat(lat);
-
-            var lon = d.Longitud;
-            if (lon > 0 || !String(lon).startsWith("-")) {
-              lon = "-" + lon;
-            } else {
-              lon = String(lon);
+            if (!String(lat).startsWith("-")) {
+              lat = "+" + lat;
             }
-            lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
-            lon = parseFloat(lon);
 
-            if (!lon || !lat) {
+            var lon = String(d.Longitud);
+            lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+            if (!String(lon).startsWith("-")) {
+              lon = "-" + lon;
+            }
+
+            if (!parseFloat(lon) || !parseFloat(lat)) {
               return "https://www.google.com/maps/search/?api=1&query=" + d.Región;
             }
             return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lon;
@@ -248,30 +242,26 @@
             return Math.sqrt(d.Total);
           })
           .attr("transform", function (d) {
-            var lat = d.Latitud;
-            if (lat > 0 || !String(lat).startsWith("-")) {
-              lat = "+" + lat;
-            } else {
-              lat = String(lat);
-            }
+            var lat = String(d.Latitud);
             lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+            if (!String(lat).startsWith("-")) {
+              lat = "+" + lat;
+            }
             lat = parseFloat(lat);
 
-            var lon = d.Longitud;
-            if (lon > 0 || !String(lon).startsWith("-")) {
-              lon = "-" + lon;
-            } else {
-              lon = String(lon);
-            }
+            var lon = String(d.Longitud);
             lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+            if (!String(lon).startsWith("-")) {
+              lon = "-" + lon;
+            }
             lon = parseFloat(lon);
 
             if (!lon || !lat) {
-              // console.log(d.Sitio);
               return "translate(" + projection([
                 0, 0
               ]) + ")";
             }
+            
             count++;
             return "translate(" + projection([
               lon, lat
