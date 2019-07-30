@@ -244,7 +244,7 @@
             })
           .append("circle", "circle")
           .attr("r", function (d) {
-            return d.Total*0.5;
+            return Math.sqrt(d.Total);
           })
           .attr("transform", function (d) {
             var lat = d.Latitud;
@@ -324,38 +324,38 @@
           d3.selectAll("circle").data(data).transition()
             .duration(750)
             .attr("r", function (d) {
-              return d.Cacicazgos*0.5;
+              return Math.sqrt(d.Cacicazgos);
             });
         } else if (choice == "Formativo") {
           d3.selectAll("circle").data(data).transition()
             .duration(750)
             .attr("r", function (d) {
-              return d.Formativo*0.5;
+              return Math.sqrt(d.Formativo);
             });
         } else if (choice == "Colonial") {
           d3.selectAll("circle").data(data).transition()
             .duration(750)
             .attr("r", function (d) {
-              return d.Colonial*0.5;
+              return Math.sqrt(d.Colonial);
             });
         } else if (choice == "Paleoindio") {
           d3.selectAll("circle").data(data).transition()
             .duration(750)
             .attr("r", function (d) {
-              return d.Paleoindio*0.5;
+              return Math.sqrt(d.Paleoindio);
             });
         } else if (choice == "Republicano") {
           d3.selectAll("circle").data(data).transition()
             .duration(750)
             .attr("r", function (d) {
-              return d.Republicano*0.5;
+              return Math.sqrt(d.Republicano);
             });
         }
         else {
           d3.selectAll("circle").data(data).transition()
             .duration(750)
             .attr("r", function (d) {
-              return d.Total*0.5;
+              return Math.sqrt(d.Total);
             });
         }
       }
@@ -363,7 +363,7 @@
 
     <div class="hbar"> </div>
     <p style="font-size: 8pt">1. Gracias a John Alexis Guerra Gómez por el <a href="https://bl.ocks.org/john-guerra/43c7656821069d00dcbc">mapa de Colombia</a>.</p>
-    <p style="font-size: 8pt">2. Este proyecto está disponible bajo la <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/LICENSE">Licencia Pública General de GNU v3.0</a>.</p>
+    <p style="font-size: 8pt">2. <a href="https://github.com/FedericoAureliano/ArqCol">Este proyecto</a> está disponible bajo la <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/LICENSE">Licencia Pública General de GNU v3.0</a>.</p>
 
 </body>
 </html>
