@@ -219,20 +219,52 @@
           .enter()
           .append("a")
           .attr("xlink:href", function (d) {
-              var lat = d.Latitud;
-              if (lat > 0 || !String(lat).startsWith("-")) {
-                lat = "+" + lat;
-              }
-              return "http://maps.google.com/maps?t=k&q=loc:" + lat + ", " + d.Longitud; 
+            var lat = d.Latitud;
+            if (lat > 0 || !String(lat).startsWith("-")) {
+              lat = "+" + lat;
+            } else {
+              lat = String(lat);
+            }
+            lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+
+            var lon = d.Longitud;
+            if (lon > 0 || !String(lon).startsWith("-")) {
+              lon = "-" + lon;
+            } else {
+              lon = String(lon);
+            }
+            lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+            return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lon; 
             })
           .append("circle", "circle")
           .attr("r", function (d) {
             return d.Total*0.5;
           })
           .attr("transform", function (d) {
+            var lat = d.Latitud;
+            if (lat > 0 || !String(lat).startsWith("-")) {
+              lat = "+" + lat;
+            } else {
+              lat = String(lat);
+            }
+            lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+            lat = parseFloat(lat);
+            
+            var lon = d.Longitud;
+            if (lon > 0 || !String(lon).startsWith("-")) {
+              lon = "-" + lon;
+            } else {
+              lon = String(lon);
+            }
+            lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+            lon = parseFloat(lon);
+
+            if (!lon || !lat) {
+              console.log(d.Sitio);
+            }
+
             return "translate(" + projection([
-              d.Longitud,
-              d.Latitud
+              lon, lat
             ]) + ")";
           })
           .style("stroke", regionFillFn)
