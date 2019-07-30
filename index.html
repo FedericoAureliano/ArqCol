@@ -148,12 +148,26 @@
           // Zoom
           g.transition()
             .duration(750)
+            .style("stroke-width", 1 / scale + "px")
             .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+          
+          d3.selectAll("circle").transition().duration(750)
+            .attr("r", function (d, i) {
+              return this.getAttribute("r") * 3 / scale;
+              })
+            .style("stroke-width", scale/24 + "px");
         } else {
-            g.transition()
-            .duration(750)
-            .attr("transform", "");
-            centered = null;
+          g.transition()
+          .duration(750)
+          .style("stroke-width", "1px")
+          .attr("transform", "");
+          centered = null;
+
+          d3.selectAll("circle").transition().duration(750)
+            .attr("r", function (d, i) {
+              return this.getAttribute("r") / 3 * scale;
+            })
+            .style("stroke-width", "1px");
         }
 
         // Highlight the clicked province
