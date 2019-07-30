@@ -66,7 +66,7 @@
     <script>
       var count = 0;
       var width = 750,
-        height = 800,
+        height = 700,
         centered;
 
       // Define color scale
@@ -78,7 +78,7 @@
       var projection = d3.geo.mercator()
         .scale(2300)
         // Center the Map in Colombia
-        .center([-76, 3])
+        .center([-76, 4.3])
         .translate([width / 2, height / 2]);
 
       var path = d3.geo.path()
@@ -129,20 +129,31 @@
 
       // When clicked, zoom in
       function clicked(d) {
-        var x, y, k;
+        var x, y;
+
+        var bounds = path.bounds(d),
+          dx = bounds[1][0] - bounds[0][0],
+          dy = bounds[1][1] - bounds[0][1],
+          x = (bounds[0][0] + bounds[1][0]) / 2,
+          y = (bounds[0][1] + bounds[1][1]) / 2,
+          scale = .9 / Math.max(dx / width, dy / height),
+          translate = [width / 2 - scale * x, height / 2 - scale * y];
 
         // Compute centroid of the selected path
         if (d && centered !== d) {
           var centroid = path.centroid(d);
           x = centroid[0];
           y = centroid[1];
-          k = 4;
           centered = d;
+          // Zoom
+          g.transition()
+            .duration(750)
+            .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
         } else {
-          x = width / 2;
-          y = height / 2;
-          k = 1;
-          centered = null;
+            g.transition()
+            .duration(750)
+            .attr("transform", "");
+            centered = null;
         }
 
         // Highlight the clicked province
@@ -151,11 +162,6 @@
             return centered && d === centered ? '#94bbba' : fillFn(d);
           });
 
-        // Zoom
-        g.transition()
-          .duration(750)
-          .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -
-            y + ')');
       }
 
       //// POINTS ON MAP
@@ -287,7 +293,7 @@
           .append("circle")
           .attr("transform", function (d) {
             return "translate(" + projection([
-              -83.1, sorted_regions.indexOf(d) * 0.5 + 6.05
+              -83.1, sorted_regions.indexOf(d) * 0.5 + 6.2
             ]) + ")";
           })
           .attr("r", 5)
@@ -300,10 +306,10 @@
           .append("text")
           .attr("transform", function (d) {
             return "translate(" + projection([
-              -82.8, sorted_regions.indexOf(d) * 0.5 + 6
+              -82.8, sorted_regions.indexOf(d) * 0.5 + 6.1
             ]) + ")";
           })
-          .style("font-size", "8pt")
+          .style("font-size", "10pt")
           .text(function (d) { return d; });
         
         var today = new Date();
@@ -313,8 +319,9 @@
 
         today = dd + '/' + mm + '/' + yyyy;
         legend.append("text")          
-          .attr("transform", "translate(" + projection([-83, -4.2]) + ")")
+          .attr("transform", "translate(" + projection([-68, 12.6]) + ")")
           .style("font-size", "10pt")
+          .style("fill", "#aaa")
           .text(today + ": " + count + " Sitios");
       });
 
