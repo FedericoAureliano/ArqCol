@@ -226,6 +226,7 @@
               lat = String(lat);
             }
             lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+            lat = parseFloat(lat);
 
             var lon = d.Longitud;
             if (lon > 0 || !String(lon).startsWith("-")) {
@@ -234,6 +235,11 @@
               lon = String(lon);
             }
             lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
+            lon = parseFloat(lon);
+
+            if (!lon || !lat) {
+              return "https://www.google.com/maps/search/?api=1&query=" + d.Región;
+            }
             return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lon; 
             })
           .append("circle", "circle")
@@ -260,9 +266,11 @@
             lon = parseFloat(lon);
 
             if (!lon || !lat) {
-              console.log(d.Sitio);
+              // console.log(d.Sitio);
+              return "translate(" + projection([
+                0, 0
+              ]) + ")";              
             }
-
             return "translate(" + projection([
               lon, lat
             ]) + ")";
