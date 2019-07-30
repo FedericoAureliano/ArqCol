@@ -26,9 +26,10 @@
 <body>
   <div class="section">
     <h3>Sitios Arqueológicos de Colombia</h3>
-    <p style="font-size: 9pt">Mantenido por <a href="https://santiago-mora.github.io/">Santiago Mora</a> y <a href="https://federicoaureliano.github.io">Federico Mora</a></p>
+    <p style="font-size: 9pt">Mantenido por <a href="https://santiago-mora.github.io/">Santiago Mora</a> y <a
+        href="https://federicoaureliano.github.io">Federico Mora</a></p>
     <div class="hbar"> </div>
-    
+
     <p style="font-size:12pt" align="justify">
       Se presenta aquí un modelo de información cronológica y espacial, con
       soporte bibliográfico, para la arqueología colombiana. El territorio ha
@@ -39,8 +40,7 @@
       localización en Google Maps. Pulse sobre un departamento para agrandar y
       centrar la imagen, pulse una segunda vez sobre el mismo departamento para
       volver a la imagen original. La bibliografía completa, más reciente, está
-      disponible <a
-      href="https://github.com/FedericoAureliano/ArqCol/blob/master/data/bib.csv">aquí</a>.
+      disponible <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/data/bib.csv">aquí</a>.
     </p>
     <p style="font-size:12pt" align="justify">
       Su participación es esencial para el desarrollo de este proyecto, por
@@ -63,7 +63,8 @@
 
     <svg></svg>
 
-<script>
+    <script>
+      var count = 0;
       var width = 750,
         height = 800,
         centered;
@@ -169,7 +170,7 @@
       // Get province color
       function regionFillFn(d) {
         var str = regionNameFn(d);
-        if (str.length > 2 && sorted_regions.indexOf(str) < 0) { sorted_regions.push(str); sorted_regions.sort().reverse();}
+        if (str.length > 2 && sorted_regions.indexOf(str) < 0) { sorted_regions.push(str); sorted_regions.sort().reverse(); }
 
         if ("Tierras bajas orientales" == str) {
           return "#FF0000";
@@ -240,8 +241,8 @@
             if (!lon || !lat) {
               return "https://www.google.com/maps/search/?api=1&query=" + d.Región;
             }
-            return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lon; 
-            })
+            return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lon;
+          })
           .append("circle", "circle")
           .attr("r", function (d) {
             return Math.sqrt(d.Total);
@@ -255,7 +256,7 @@
             }
             lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
             lat = parseFloat(lat);
-            
+
             var lon = d.Longitud;
             if (lon > 0 || !String(lon).startsWith("-")) {
               lon = "-" + lon;
@@ -269,8 +270,9 @@
               // console.log(d.Sitio);
               return "translate(" + projection([
                 0, 0
-              ]) + ")";              
+              ]) + ")";
             }
+            count++;
             return "translate(" + projection([
               lon, lat
             ]) + ")";
@@ -282,38 +284,49 @@
             return "Sitio: " + d.Sitio + "\nRegión: " + d.Región + "\nReferencia(s): " + d.Referencia;
           })
 
-          // add legend   
-          var legend = g.append("g")
+        // add legend   
+        var legend = g.append("g")
           .attr("class", "legend")
           .attr("height", 100)
           .attr("width", 100)
           .attr('transform', 'translate(-80, 6.5)')
-            
-          legend.selectAll('circle')
-            .data(sorted_regions)
-            .enter()
-            .append("circle")
-            .attr("transform", function (d) {
-              return "translate(" + projection([
-                -83.1, sorted_regions.indexOf(d)*0.5 + 6.05
-              ]) + ")";
-            })
-            .attr("r", 5)
-            .style("fill", regionFillFn)
-            .style("stroke", regionFillFn);
 
-          legend.selectAll('text')
-            .data(sorted_regions)
-            .enter()
-            .append("text")
-            .attr("transform", function (d) {
-              return "translate(" + projection([
-                -82.8, sorted_regions.indexOf(d)*0.5 + 6
-              ]) + ")";
-            })
-            .style("font-size", "8pt")
-            .text(function(d) { return d;});
-      });        
+        legend.selectAll('circle')
+          .data(sorted_regions)
+          .enter()
+          .append("circle")
+          .attr("transform", function (d) {
+            return "translate(" + projection([
+              -83.1, sorted_regions.indexOf(d) * 0.5 + 6.05
+            ]) + ")";
+          })
+          .attr("r", 5)
+          .style("fill", regionFillFn)
+          .style("stroke", regionFillFn);
+
+        legend.selectAll('text')
+          .data(sorted_regions)
+          .enter()
+          .append("text")
+          .attr("transform", function (d) {
+            return "translate(" + projection([
+              -82.8, sorted_regions.indexOf(d) * 0.5 + 6
+            ]) + ")";
+          })
+          .style("font-size", "8pt")
+          .text(function (d) { return d; });
+        
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+
+        today = dd + '/' + mm + '/' + yyyy;
+        legend.append("text")          
+          .attr("transform", "translate(" + projection([-83, -4.2]) + ")")
+          .style("font-size", "10pt")
+          .text(today + ": " + count + " Sitios");
+      });
 
       d3.select("#etapa").on("change", change)
 
@@ -362,8 +375,12 @@
     </script>
 
     <div class="hbar"> </div>
-    <p style="font-size: 8pt">1. Gracias a John Alexis Guerra Gómez por el <a href="https://bl.ocks.org/john-guerra/43c7656821069d00dcbc">mapa de Colombia</a>.</p>
-    <p style="font-size: 8pt">2. <a href="https://github.com/FedericoAureliano/ArqCol">Este proyecto</a> está disponible bajo la <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/LICENSE">Licencia Pública General de GNU v3.0</a>.</p>
+    <p style="font-size: 8pt">1. Gracias a John Alexis Guerra Gómez por el <a
+        href="https://bl.ocks.org/john-guerra/43c7656821069d00dcbc">mapa de Colombia</a>.</p>
+    <p style="font-size: 8pt">2. <a href="https://github.com/FedericoAureliano/ArqCol">Este proyecto</a> está disponible
+      bajo la <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/LICENSE">Licencia Pública General de GNU
+        v3.0</a>.</p>
 
 </body>
+
 </html>
