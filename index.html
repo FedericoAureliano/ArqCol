@@ -154,7 +154,7 @@
           if (centered == null) {
             d3.selectAll("circle").transition().duration(750)
               .attr("r", function (d, i) {
-                return this.getAttribute("r") / 3;
+                return this.getAttribute("r") / 2;
                 })
               .style("stroke-width", 1/3 + "px");
           }
@@ -168,7 +168,7 @@
 
           d3.selectAll("circle").transition().duration(750)
             .attr("r", function (d, i) {
-              return this.getAttribute("r") * 3;
+              return this.getAttribute("r") * 2;
             })
             .style("stroke-width", "1px");
         }
@@ -336,7 +336,7 @@
 
         today = dd + '/' + mm + '/' + yyyy;
         legend.append("text")          
-          .attr("transform", "translate(" + projection([-68, 12.6]) + ")")
+          .attr("transform", "translate(" + projection([-68.25, 12.6]) + ")")
           .style("font-size", "10pt")
           .style("fill", "#aaa")
           .text(today + ": " + count + " Sitios");
