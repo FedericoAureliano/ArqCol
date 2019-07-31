@@ -32,8 +32,8 @@ body {
     max-width: 1000px;
 }
 .main {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     min-width: 300px;
