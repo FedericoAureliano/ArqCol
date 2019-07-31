@@ -1,6 +1,6 @@
 Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Longitud,Altitud,Héctareas valor mayor,Héctareas valor menor,Plancha,Escala,Contextos,Descripción,Restos Fauna,Restos Oseos,Restos Botánicos,Analisis de Suelos,Polen,Cerámica,Líticos,Tipos cerámicos,Referencia,Multicomponente
 0,El Abra,,Altiplano Cundiboyacense,Cundinamarca,,,5.017358,-73.9512035.017358,2570,0,0,,,,"	5° 1′ 2.49″ N, 73° 57′ 4.33″ W, 5.017358, -73.951203",TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,,"Correal; Van Der Hammen & Hurt 1977; Hurt 1967-69, Hurt et al. 1976.",TRUE
-1,Abeja,2.1.86,Tierras bajas orientales,Caquetá,Araracuara,,0.579387,-72.399865,245,6,6,,,Habitación,"-0.579387, -72.399865",FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,Herrera et al. 1987; 1989; 1992; 1992; Mora et al 1991;1988; 1990. Llanos 1995; 1997; Mora 2001,TRUE
+1,Abeja,2.1.86,Tierras bajas orientales,Caquetá,Araracuara,,-0.34517,-72.23581,245,6,6,,,Habitación,"-0.579387, -72.399865",FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,Herrera et al. 1987; 1989; 1992; 1992; Mora et al 1991;1988; 1990. Llanos 1995; 1997; Mora 2001,TRUE
 2,Acacías A-2,A2,Tierras bajas orientales,Meta,,,3.5757.7,-73.41229,523,,,,,Habitación,"3°57'57.7""N 73°41'22.9""W, esta localizacién es muy apriximada",FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,,"Mora, & Cavelier, 1983; 1987",FALSE
 3,Aguabonita,S1,Alto Magdalena,Cauca,,,,,,,,,,Tumba,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Chaves, & Puerta, 1978",FALSE
 4,Agualinda,S2,Valles alto Calima y alto y medio del Cauca,,,,3.830738888,-76.5157305,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1983",FALSE
@@ -11,12 +11,12 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 9,Alto de Mira,S7,Sierra Nevada,,,,11.0114416,-73.878972,,,,,,"Basurero, habitación",,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Ardila, 1984-85; 1986",FALSE
 10,Alto del Lavapatas,S8,Alto Magdalena,Huila,,,1.880913659,-76.30548952,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Duque & Cubillos, 1988",FALSE
 11,Angosturas,S9,Tierras bajas orientales,Meta,,,2.18,-73.7,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1993",FALSE
-12,Araracuara 15,S11,Tierras bajas orientales,,,,-0.619749126,-72.3922765,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
-13,Araracuara 21,S12,Tierras bajas orientales,,,,-0.607633894,-72.39236336,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
-14,Araracuara 22,S13,Tierras bajas orientales,,,,-0.609803452,-72.39371102,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
-15,Araracuara 25,S10,Tierras bajas orientales,,,,-0.5989527,-72.3995472,,,,,,,,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,,"Andrade, 1986; Cavelier, et al 1990",FALSE
-16,Araracuara 26,S14,Tierras bajas orientales,,,,-0.5917194,-72.4031361,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Andrade, 1986; Cavelier, et al 1990",FALSE
-17,Araracuara 7,S15,Tierras bajas orientales,,,,-0.613419064,-72.39721446,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981",FALSE
+12,Araracuara 15,S11,Tierras bajas orientales,Caquetá,,,-0.619749126,-72.3922765,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
+13,Araracuara 21,S12,Tierras bajas orientales,Caquetá,,,-0.607633894,-72.39236336,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
+14,Araracuara 22,S13,Tierras bajas orientales,Caquetá,,,-0.609803452,-72.39371102,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981; Cavelier, et al 1990",FALSE
+15,Araracuara 25,S10,Tierras bajas orientales,Caquetá,,,-0.5989527,-72.3995472,,,,,,,,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,,"Andrade, 1986; Cavelier, et al 1990",FALSE
+16,Araracuara 26,S14,Tierras bajas orientales,Caquetá,,,-0.5917194,-72.4031361,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Andrade, 1986; Cavelier, et al 1990",FALSE
+17,Araracuara 7,S15,Tierras bajas orientales,Caquetá,,,-0.613419064,-72.39721446,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Herrera, et al. 1980-1981",FALSE
 18,Arboledas,S16,Valles alto Calima y alto y medio del Cauca,,,,3.673610658,-76.57370732,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gähwiler, 1988",FALSE
 19,Armenia,S17,Valles alto Calima y alto y medio del Cauca,,,,6.120,-75.800,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Correal, 1980",FALSE
 20,Armenia-Mantequilla,S18,Valles alto Calima y alto y medio del Cauca,,,,4.540,-75.710,,,,,,,Información Erigaie,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
@@ -94,7 +94,7 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 94,El Abra 2,93,Altiplano Cundiboyacense,,,,5.02000,-73.96000,,,,,,,,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,,"Correal, et al. 1977; Hurt 1967-69, Hurt et al. 1976.",TRUE
 95,El Aguacate,94,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Chaves, & Puerta, 1986; Chaves 1991",FALSE
 96,El Balsal,95,Costa Pacífica,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bouchard, 1983",FALSE
-97,El Bosque,96,Magdalena medio,,,,5.556540628,-74.87012155,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al.1995",FALSE
+97,El Bosque,96,Magdalena medio,Antioquia,,,5.556540628,-74.87012155,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al.1995",FALSE
 98,El Cabrero,97,"Uraba, alto Sinú",,,,8.15406710,-76.09789402,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,"Botiva, et al. 1991",FALSE
 99,El Cangrejo,98,Altiplano Cundiboyacense,,,,5.550,-73.680,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Therrien, 1991",FALSE
 100,El Carmen,99,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, et al. 1994",FALSE
@@ -176,7 +176,7 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 183,La Mireya,183,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.04251,-75.48144,,,,,,,En algunos referencias aparece como el Anclar 1.,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Reichel-Dolmatoff, 1986; Plazas, Falchetti; Sáenz & Archila 1993; Plazas & Falchetti 1981",FALSE
 184,La Muela,184,Altiplano Cundiboyacense,,,,5.55000,-73.36000,,,,,,,,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Pradilla, et al. 1991; Pradilla, Villate & Ortiz 1990;1992.",FALSE
 185,La Pedregosa 1,185,Magdalena medio,,,,6.051591,-74.11050,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1991",FALSE
-186,La Pedrera,186,Tierras bajas orientales,Amazonas,La Pedrera,,1°30'S,69°30',,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Hildebrand, &  Reichel, 1985",FALSE
+186,La Pedrera,186,Tierras bajas orientales,Amazonas,La Pedrera,,-1.317514,-69.587694,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Hildebrand, &  Reichel, 1985",FALSE
 187,La Primavera,187,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, & Moseley 1970",FALSE
 189,La Ribera,189,Magdalena medio,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Chacín, 1993",FALSE
 190,La Selva (Risaralda).,381,Valles alto Calima y alto y medio del Cauca,,,,5.01510560,-75.74560566,0,0,0,,,,En el catalogo de Erigaie aparece como Marsella-La Selva,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Patiño, 1996; 1996.",FALSE
@@ -255,7 +255,7 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 268,Parámo de Peña Negra,266,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Herrera, et al. 1992",FALSE
 269,Pavitas,267,Valles alto Calima y alto y medio del Cauca,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Gahwiler, 1988",FALSE
 270,Pazu 1,268,"Uraba, alto Sinú",,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,FALSE
-271,Peña Roja,269,Tierras bajas orientales,Amazonas,Araracuara,,0.56097,-72.408516,200,,,,,"Habitación, taller",",-72.408516",FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,"Cavelier, et al.1995; Gnecco & Mora 1997; Morcote 1994; Llanos, J. M. 1995; 1997; Piperno & Pearsal 1998; Mora 2001; Mora & Gnecco 2003",TRUE
+271,Peña Roja,269,Tierras bajas orientales,Amazonas,Araracuara,,-0.659157,-72.083538,200,,,,,"Habitación, taller",",-72.408516",FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,"Cavelier, et al.1995; Gnecco & Mora 1997; Morcote 1994; Llanos, J. M. 1995; 1997; Piperno & Pearsal 1998; Mora 2001; Mora & Gnecco 2003",TRUE
 272,Peñitas,270,Altiplano Cundiboyacense,Boyacá,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Boada, et al. 1989",FALSE
 273,Peñones de Bogotá,271,Magdalena medio,,,,6.399353378,-74.41046746,,,,,,,Transición de cazadores recolectores a agrícultores.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López, 1990, 1992; López, & Botero, 1993",FALSE
 274,Piedra Pintada,272,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Becerra, 1985",FALSE
@@ -296,7 +296,7 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 315,Santa Helena,314,Macizo Antioqueño,,,,,,,,,,,,En las tablas de la fundación sale como  El Carmelo.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE, Marrón Inciso.,"Santos, 1994",FALSE
 316,Santa Rosa VP1226,315,Alto Magdalena,,,,2.190,-76.080,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Drennan, 1993",FALSE
 317,Santa Rosa - Herrera,316,Magdalena medio,,,,3.39072,-75.88225,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1990",FALSE
-318,Santa Sofia,317,Tierras bajas orientales,Amazonas,,,3.92117,-70.16617,,,,,,,Sitio 14,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bolian, 1972",FALSE
+318,Santa Sofia,317,Tierras bajas orientales,Amazonas,,,-3.92117,-70.16617,,,,,,,Sitio 14,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bolian, 1972",FALSE
 320,Santiago,319,Alto Magdalena,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Urdaneta, 1988",FALSE
 321,Santo Domingo Buenavista,320,Altiplano Cundiboyacense,,,,,,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Falchett, 1979; Reichel-Dolmatoff 1986:178",FALSE
 322,Sauzalito,321,Valles alto Calima y alto y medio del Cauca,,,,3.940,-76.520,,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bray, et al. 1988",FALSE
@@ -359,7 +359,7 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 401,Aguazul CC2,,Tierras bajas orientales,,,,5.149,72.3434,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Alarcón &  Segura 1998,FALSE
 402,Alejandría-Yacimiento 12,,Magdalena medio,,,,6.02582385,-74.52241477,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
 403,Alto de Chinas,,Alto Magdalena,,,,1.30,-76.15,0,0,0,,,,Tiene un montículo,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Forero, 1997",FALSE
-404,Altomira-Yacimiento 14,,,,,,5.85315172,-74.30918336,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+404,Altomira-Yacimiento 14,,Magdalena medio,Antioquia,,,5.85315172,-74.30918336,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
 405,Arrancaplumas,,Magdalena medio,,,,5.190,-74.770,0,0,0,,,,Completar referencias cifuentes,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Cifuentes 1991; 1993;,FALSE
 406,Bugalagrande-PK 241+400,,Magdalena medio,,,,4.220,-76.170,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
 407,Alto de Quinchana,,Alto Magdalena,,,,1.885785,-76.33446,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,"Duque, 1966; Llanos &  Durán 1983.",FALSE
@@ -391,12 +391,12 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 433,El Porvenir-Yacimiento 26,,,,,,6.530,-75.080,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Santos, 1996",FALSE
 434,El Radio-Yacimiento 10,,Valles alto Calima y alto y medio del Cauca,,,,4.976,-75.655,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Monsalve; Vergara &Tabares 1996,FALSE
 435,El Roble-Yacimiento 35,,,,,,5.850,-74.000,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
-436,Garabato-Yacimiento 5,,,,,,6.44407082,-75.73469038,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera & Botero 1997,FALSE
+436,Garabato-Yacimiento 5,,Macizo Antioqueño,Antioquia,,,6.44407082,-75.73469038,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera & Botero 1997,FALSE
 437,Guacanas,,Alto Magdalena,,,,2.223130319,-75.64279002,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Llanos 1993.,FALSE
-438,Guayacán-Yacimiento 01,,,,,,5.86647931,-73.96723188,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CAIN 1996,FALSE
+438,Guayacán-Yacimiento 01,,Magdalena medio,,,,5.86647931,-73.96723188,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CAIN 1996,FALSE
 439,Japón 3,,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.686416305,-74.96870817,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE, modelada pintada,"Plazas, et al. 1981; Plazas; Falchetti & Sáenz 1979",FALSE
 440,La Angostura-Yacimiento 4,,Magdalena medio,,,,6.180,-74.620,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Castillo 1997,FALSE
-441,La Argelia-Yacimiento 30,,,,,,5.82634135,-74.09301570,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+441,La Argelia-Yacimiento 30,,Magdalena medio,,,,5.82634135,-74.09301570,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
 442,La Cabaña 1,,Valles alto Calima y alto y medio del Cauca,,,,3.70709950,-76.62931569,0,0,0,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,,Alarcón 1995; 1996; Berbal 1995; Rojas 1995,FALSE
 443,La Champiñorera I-Yacimiento 6,,,,,,6.05601204,-76.74760548,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Monsalve & Botero 1997,FALSE
 444,La Floresta-Yacimiento 08,,,,,,4.38991724,-73.04473042,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,CISH 1996,FALSE
@@ -406,9 +406,9 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 448,La Mejora-Yacimiento 17,,,,,,8.180,-76.070,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
 449,La Morela-Yacimiento 06,,Magdalena medio,,,,6.48886649,-74.41902299,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos;Bermudez; Correa & Ospina  1996,FALSE
 450,La Palma-Yacimiento 1,,Macizo Antioqueño,Antioquia,,,6.39223485,-75.44110322,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera; Botero; Muñoz; Cadavid &  Ospina 1997,FALSE
-451,La Quinta,,,,,,4.12816589,-75.08953775,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Pulido 1996,FALSE
+451,La Quinta,,Magdalena medio,Tolima,,,4.12816589,-75.08953775,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Pulido 1996,FALSE
 452,La Tebaida-PK 39+565,,Valles alto Calima y alto y medio del Cauca,,,,4.460,-75.790,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Bernal 1997,FALSE
-453,Las Delicias-Yacimiento 27,,,,,,5.850,-74.000,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna &. Mejía 1994,FALSE
+453,Las Delicias-Yacimiento 27,,Magdalena medio,,,,5.850,-74.000,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna &. Mejía 1994,FALSE
 454,Las Flores-Yacimiento 07,,Magdalena medio,,,,6.48974059,-74.46151237,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Santos; Bermudez; Correa & Ospina 1996,FALSE
 455,Los Achiles,,Magdalena medio,,,,5.68896428,-74.74366173,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cavelier, et al 1995; Morcote & Cavelier 1999, Méndez & Escobar 2000.",FALSE
 456,Los Arrayanes-PK 91+150,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1997",FALSE
@@ -434,19 +434,19 @@ Contador,Sitio,Número Catalogo,Región,Departamento,Municipio,Vereda,Latitud,Lo
 476,Puerto Gaira,,Sierra Nevada,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Oyuela, 1987",FALSE
 477,Perico,,Magdalena medio,,,,5.2611,-74.79111,0,0,0,,,,En el Catalogo de Eriagie aparece como Quebrada El Perico.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Cifuentes, 1993",FALSE
 478,Rodapasos,,Alto Magdalena,,,,1.978016,-75.91753,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Sánchez, 1991",FALSE
-479,Romelia 100,,,,,,4.84174632,-75.67475543,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Rodríguez  &. Montejo 1996,FALSE
+479,Romelia 100,,Valles alto Calima y alto y medio del Cauca,,,,4.84174632,-75.67475543,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Rodríguez  &. Montejo 1996,FALSE
 480,San Isidro-Guaitarilla,,Macizo Andino del sur,,,,,,0,0,0,,,,El sitio como tal no existe pues los materiales fechados son de un sitio excavado por huaqueros a los cuales el museo del oro les compro los materiales de madera y oro. Además las investigadoras los entrevistaron para hacer el artículo. Por eso no tiene coordenadas.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Cardale & Falchetti 1980,FALSE
 481,San Nicolás,,Alto Magdalena,,,,2.323312735,-76.28374184,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Espejo & Rangel 1989; Piñeros 1989.,FALSE
 482,San Pedro-PK276+700,,Valles alto Calima y alto y medio del Cauca,,,,4.01163690,-76.24945044,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Rodríguez, 1996",FALSE
 483,San Pedro-PK276+750,,Valles alto Calima y alto y medio del Cauca,,,,3.990,-76.250,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Bernal 1997,FALSE
 484,San Pedro-PK278+200,,Valles alto Calima y alto y medio del Cauca,,,,3.990,-76.250,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Bernal 1997,FALSE
 485,San Ramón 1,,Peninsula de la Guajira y corredor del Cesar,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Ardila, 1986",FALSE
-486,San Vicente-Yacimiento 2,,,,,,6.42951271,-75.73328283,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera  & Botero 1997,FALSE
-487,Santa Cecilia-Yacimiento 8,,,,,,5.95824213,-74.44740284,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
+486,San Vicente-Yacimiento 2,,Macizo Antioqueño,Antioquia,,,6.42951271,-75.73328283,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Múnera  & Botero 1997,FALSE
+487,Santa Cecilia-Yacimiento 8,,Magdalena medio,,,,5.95824213,-74.44740284,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Serna & Mejía 1994,FALSE
 488,Santa Rosa-PK 1+750,,Valles alto Calima y alto y medio del Cauca,,,,4.891,-75.660,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
 489,Santa Rosa-PK 2+560,,Valles alto Calima y alto y medio del Cauca,,,,4.891,-75.660,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
 490,Santa Rosa-PK 2+706,,Valles alto Calima y alto y medio del Cauca,,,,4.891,-75.660,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Bernal, 1997",FALSE
-491,Támesis-Yacimiento 19,,,,,,5.68793304,-75.68729166,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Martínez, 1997",FALSE
+491,Támesis-Yacimiento 19,,Macizo Antioqueño,Antioquia,,,5.68793304,-75.68729166,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"Martínez, 1997",FALSE
 492,Tierralta-Yacimiento 10,,Llanuras del Caribe cuencas bajas Sinú y San Jorge,,,,8.180,-76.070,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Nieto & Espinosa 1995,FALSE
 493,Torre 209,,,,,,,,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,"López; Nieto & Correcha 1994;  López, 1994",FALSE
 494,Torre 75,,Magdalena medio,,,,4.520,-74.81000,0,0,0,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,López; Nieto & Correcha 1994,FALSE
