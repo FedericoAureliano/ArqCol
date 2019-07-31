@@ -144,10 +144,9 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Imbilí","Costa Pacífica","Reichel-Dolmatoff, 1965",,,1,0,0,0,0,1
 "Inguapí","Costa Pacífica","Bouchard, 1983",,,7,0,0,0,2,9
 "Irique","Tierras bajas orientales","Mora, & Cavelier, 1985", -73.631451,3.428911,0,0,1,0,0,1
-"Jardin del Este","Ecuador","Buys & Dominguez, 1989",,,1,0,0,0,0,1
 "Jolón","Llanuras del Caribe cuencas bajas Sinú y San Jorge","",,,0,0,0,0,0,0
 "Jongovito","Macizo Andino del sur","Groot, 1991",1.179571005,-77.3079592,1,0,0,0,0,1
-"La  Guayabala","Macizo Antioqueño","",,,0,0,0,0,0,0
+"La  Guayabala","Macizo Antioqueño","",,,0,0,0,0,0,
 "La Aguada","Valles alto Calima y alto y medio del Cauca","Otero, 1992; Bermudez, 1995:59",5.920,-75.690,1,0,0,0,0,1
 "La Alsacia","Valles alto Calima y alto y medio del Cauca","Bray, et al. 1981; Rodríguez, et al. 1994.",,,3,0,0,0,0,3
 "La Amapola","Valles alto Calima y alto y medio del Cauca","Gähwiler, 1988; 1989",3.65847032,-76.58523671,4,0,0,0,0,4
@@ -400,7 +399,6 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "La Argelia-Yacimiento 30","","Serna & Mejía 1994",5.82634135,-74.09301570,1,0,0,0,0,1
 "La Cabaña 1","","Alarcón 1995; 1996; Berbal 1995; Rojas 1995",3.70709950,-76.62931569,0,0,0,1,0,1
 "La Champiñorera I-Yacimiento 6","","Múnera; Monsalve & Botero 1997",6.05601204,-76.74760548,1,0,0,0,0,1
-"La Floresta-Yacimiento 08","","CISH 1996",4.38991724,-83.04473042,1,0,0,0,0,1
 "La Herradura-Yacimiento 27","","Santos 1996",6.53593357,-74.97243113,0,0,1,1,0,2
 "La laguna-Yacimiento 23","","Santos 1996",6.54139946,-74.99983251,1,0,0,0,0,1
 "San Roque","","Santos et al 1998; CISH 1996",6.51010832,-74.84167022,1,0,0,0,0,1
