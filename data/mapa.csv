@@ -1,7 +1,7 @@
 Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoindio,Republicano,Total
-"El Abra","Altiplano Cundiboyacense","Correal; Van Der Hammen & Hurt 1977; Hurt 1967-69, Hurt et al. 1976.",,,2,0,1,8,0,11
-"Abeja","Tierras bajas orientales","Herrera et al. 1987; 1989; 1992; 1992; Mora et al 1991;1988; 1990. Llanos 1995; 1997; Mora 2001",,,6,2,0,0,0,8
-"Acacías","Tierras bajas orientales","Mora, & Cavelier, 1983; 1987",,,1,0,0,0,0,1
+"El Abra","Altiplano Cundiboyacense","Correal; Van Der Hammen & Hurt 1977; Hurt 1967-69, Hurt et al. 1976.",5.017358,-73.9512035.017358,2,0,1,8,0,11
+"Abeja","Tierras bajas orientales","Herrera et al. 1987; 1989; 1992; 1992; Mora et al 1991;1988; 1990. Llanos 1995; 1997; Mora 2001",0.579387,-72.399865,6,2,0,0,0,8
+"Acacías A-2","Tierras bajas orientales","Mora, & Cavelier, 1983; 1987",3.5757.7,-73.41229,0,0,0,0,0,0
 "Aguabonita","Alto Magdalena","Chaves, & Puerta, 1978",,,1,0,0,0,0,1
 "Agualinda","Valles alto Calima y alto y medio del Cauca","Bray, et al. 1983",3.830738888,-76.5157305,1,0,0,0,0,1
 "Aguazuque I","Altiplano Cundiboyacense","Correal, 1990",4.612809874,-74.28007692,0,3,0,0,0,3
@@ -20,6 +20,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Arboledas","Valles alto Calima y alto y medio del Cauca","Gähwiler, 1988",3.673610658,-76.57370732,1,0,0,0,0,1
 "Armenia","Valles alto Calima y alto y medio del Cauca","Correal, 1980",6.120,-75.800,1,0,0,0,0,1
 "Armenia-Mantequilla","Valles alto Calima y alto y medio del Cauca","Bernal, 1997",4.540,-75.710,1,0,0,0,0,1
+"","","",,,10,0,0,1,1,12
 "Barca de Yotoco","Valles alto Calima y alto y medio del Cauca","Bray, & Moseley 1970; Sampson, et al. 1976",,,5,0,1,0,0,6
 "Barlovento","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Reichel-Dolmatoff, 1965; Angulo, 1995",,,0,4,0,0,0,4
 "Barrancabermeja","Magdalena medio","López, en prensa",,,0,0,0,1,0,1
@@ -39,11 +40,20 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Buritaca 200","Sierra Nevada","Herrera, Luisa Fernanda 1980; Cadavid, 1986;1982",11.04401436,-73.9280923,4,0,1,0,0,5
 "Buritaca 204","Sierra Nevada","Cardoso, Patricia 1986",11.19,-74.04,2,0,0,0,0,2
 "Busbazá LP-I , Vereda La Puerta","Altiplano Cundiboyacense","Archila, 1986",5.818780289,-72.90217104,1,0,0,0,0,1
+"","","",,,10,0,0,1,1,12
+"","","",,,10,0,0,1,1,12
+"","","",,,10,0,0,1,1,12
+"","","",,,10,0,0,1,1,12
+"","","",,,10,0,0,1,1,12
+"","","",,,10,0,0,1,1,12
+"","","",,,10,0,0,1,1,12
+"","","",,,10,0,0,1,1,12
+"","","",,,10,0,0,1,1,12
 "Caballo","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Angulo, 1988.También en Peña 2001",10.57053578,-75.088661,4,0,0,0,0,4
 "Cabo de la Vela","Valles alto Calima y alto y medio del Cauca","Rodríguez &. Bashilov 1988; Herrera, Cardale &  Bray 1990; Cardale, Bray & Herrera, 1989; Salgado1988; 1989;1993; Salgado, Rodríguez & Bashilov 1993.",3.900312346,-76.43825938,6,0,0,0,0,6
 "Cálamo","Alto Magdalena","Llanos, 1990",1.863418845,-76.04812704,2,0,0,0,0,2
 "Campo Alegre Tasajeras","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Angulo, 1978; Archila 1993",10.96,-74.3825,1,0,0,0,0,1
-"Canapote","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Bischof, 1966;1972; Angulo, 1995",10.27,75.30,0,2,0,0,0,2
+"Canapote","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Bischof, 1966;1972; Angulo, 1995",10.27,-75.30,0,2,0,0,0,2
 "Cancha Fútbol","Magdalena medio","Cavelier, et al.1995",,,1,0,0,0,0,1
 "Candelaria La Nueva","Altiplano Cundiboyacense","Cifuentes & Moreno 1987; Goggel 1989; Therrien & Enciso, 1991;  Cárdenas 1993",,,2,0,0,0,0,2
 "Cangarú","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Murdy, 1986; Reichel-Dolmatoff, 1985; Archila, 1991; 1993",10.99,-74.30,1,0,0,0,0,1
@@ -55,7 +65,6 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Carate 25","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Plazas,  Falchetti, Sáenz  & Archila 1993; Plazas,  Falchetti, van der Hammen & Botero 1988",8.574886523,-75.13638132,3,1,0,0,0,4
 "Carate 26","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Plazas,  Falchetti, Sáenz  & Archila 1993; Plazas,  Falchetti, van der Hammen & Botero 1988",8.626894197,-75.12644269,4,0,0,0,0,4
 "Carrizal","Montaña Santandereana","Uribe, 1990",,,2,0,0,0,0,2
-"Catanga","Tierras bajas orientales","Mora, 1988",,,0,0,1,0,0,1
 "Catanguero","Costa Pacífica","Reichel-Dolmatoff, 1965",,,1,0,0,0,0,1
 "Cecilio","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Angulo, 1978",10.7924527,-74.4969416,1,0,0,0,0,1
 "Ceilán","Valles alto Calima y alto y medio del Cauca","Bray, et al. 1987;1988; Cardale,  Bray &  Herrera 1989",3.888048484,-76.484543,2,0,0,0,0,2
@@ -81,7 +90,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Cueva del Caucho","Montaña Santandereana","Uribe, 1990",,,1,0,0,0,0,1
 "Cueva El Conde","Montaña Santandereana","Uribe, 1990",,,2,0,0,0,0,2
 "Cueva La Antigua","Montaña Santandereana","Peña, 1991, cita a Bray s.p.",,,4,0,0,0,0,4
-"Cupica IV","Costa Pacífica","Reichel-Dolamtoff, 1962",6.4´ 22,77.30´ 10¨,1,0,0,0,0,1
+"Cupica IV","Costa Pacífica","Reichel-Dolamtoff, 1962",6.422,-77.3010,1,0,0,0,0,1
 "El Abra 2","Altiplano Cundiboyacense","Correal, et al. 1977; Hurt 1967-69, Hurt et al. 1976.",5.02000,-73.96000,0,0,0,2,0,2
 "El Aguacate","Alto Magdalena","Chaves, & Puerta, 1986; Chaves 1991",,,1,0,0,0,0,1
 "El Balsal","Costa Pacífica","Bouchard, 1983",,,1,0,0,0,0,1
@@ -107,7 +116,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "El Prodigio","Magdalena medio","Rodríguez, 1989; 1991,1995.",3.655051578,-75.6406405,0,1,0,1,0,2
 "El Ranchito","Macizo Antioqueño","Piazzini 1993; Castillo, 1992",,,1,0,0,0,0,1
 "El Recreo","Valles alto Calima y alto y medio del Cauca","Herrera, et al. 1992; Herrera; Cardale & Bray 1990; Gnecco & Salgado 1989;",3.85955,-76.49560,0,0,0,3,0,3
-"El Rosario","Valles alto Calima y alto y medio del Cauca","Forero, 1993",3.49 14" N,76.00 34",1,0,0,0,0,1
+"El Rosario","Valles alto Calima y alto y medio del Cauca","Forero, 1993",3.4914,-76.0034,1,0,0,0,0,1
 "El Tamarindo","Costa Pacífica","Patiño, 1987;1988.",2.774795419,-77.6662786,1,0,0,0,0,1
 "El Tambo","Macizo Andino del sur","Uribe, 1978; 1992:9",,,1,0,0,0,0,1
 "El Tiestero","Macizo Antioqueño","Santos, 1994; Botero & Vélez, 1995",6.270,-75.660,2,0,0,0,0,2
@@ -120,7 +129,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Galíndez","Alto Magdalena","Patiño, & Gnecco, 1992",,,0,0,0,0,1,1
 "Girardot","Magdalena medio","Correal, 1993",,,0,0,0,1,0,1
 "Guabas","Valles alto Calima y alto y medio del Cauca","Rodríguez en Herrera, 1984;  Bray 1989; Rodríguez 1985",3.764201354,-76.30370005,2,0,0,0,0,2
-"Guacanas","Alto Magdalena","Llanos, 1993",2.15 N,75.40,2,0,0,0,0,2
+"Guacanas","Alto Magdalena","Llanos, 1993",2.15,-75.40,2,0,0,0,0,2
 "Guácharos I","Alto Magdalena","Correal, & van der Hammen, 1984",1.5245,-76.090,2,0,0,0,0,2
 "Guaduero","Magdalena medio","Hernandez, & Caceres, 1989",5.19000,-74.60000,2,0,0,0,0,2
 "Guaiqurí","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Plazas, et al. 1981, cita a Reines s.p.",,,1,0,0,0,1,2
@@ -130,11 +139,12 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Guasca","Altiplano Cundiboyacense","Uribe, 1990",,,2,0,0,0,0,2
 "Guatavita","Altiplano Cundiboyacense","Falchetti, 1979; Reichel-Dolmatoff 1986; Uribe, 1990",,,2,0,0,0,0,2
 "Guayabal","Alto Magdalena","Patiño, & Gnecco, 1992",,,2,0,0,0,0,2
-"Guayabito-Yacimiento 11","","Múnera; Monsalve & Botero 1997",6.05521142,-76.76982646,0,1,0,0,0,1
+"Guayabito-Yacimiento 11","Tierras bajas orientales","Múnera; Monsalve & Botero 1997",6.05521142,-76.76982646,0,1,0,0,0,1
 "Guayabero I","Tierras bajas orientales","Correal, et al. 1990; Botiva 1986",2.56983467,-71.08801912,1,2,0,2,0,5
 "Imbilí","Costa Pacífica","Reichel-Dolmatoff, 1965",,,1,0,0,0,0,1
 "Inguapí","Costa Pacífica","Bouchard, 1983",,,7,0,0,0,2,9
-"Irique","Tierras bajas orientales","Mora, & Cavelier, 1985",,,0,0,1,0,0,1
+"Irique","Tierras bajas orientales","Mora, & Cavelier, 1985", -73.631451,3.428911,0,0,1,0,0,1
+"Jardin del Este","Ecuador","Buys & Dominguez, 1989",,,1,0,0,0,0,1
 "Jolón","Llanuras del Caribe cuencas bajas Sinú y San Jorge","",,,0,0,0,0,0,0
 "Jongovito","Macizo Andino del sur","Groot, 1991",1.179571005,-77.3079592,1,0,0,0,0,1
 "La  Guayabala","Macizo Antioqueño","",,,0,0,0,0,0,0
@@ -166,7 +176,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "La Mireya","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Reichel-Dolmatoff, 1986; Plazas, Falchetti; Sáenz & Archila 1993; Plazas & Falchetti 1981",8.04251,-75.48144,1,0,0,0,0,1
 "La Muela","Altiplano Cundiboyacense","Pradilla, et al. 1991; Pradilla, Villate & Ortiz 1990;1992.",5.55000,-73.36000,3,0,1,0,0,4
 "La Pedregosa 1","Magdalena medio","López, 1991",6.051591,-74.11050,1,0,0,0,0,1
-"La Pedrera","Tierras bajas orientales","Hildebrand, &  Reichel, 1985",1.30S,69.30,3,0,0,0,0,3
+"La Pedrera","Tierras bajas orientales","Hildebrand, &  Reichel, 1985",1°30'S,69°30',3,0,0,0,0,3
 "La Primavera","Valles alto Calima y alto y medio del Cauca","Bray, & Moseley 1970",,,1,0,0,0,0,1
 "La Ribera","Magdalena medio","Chacín, 1993",,,1,0,0,0,0,1
 "La Selva (Risaralda).","Valles alto Calima y alto y medio del Cauca","Patiño, 1996; 1996.",5.01510560,-75.74560566,4,1,0,2,0,7
@@ -225,7 +235,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Nahuange I","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Bray 1995",,,1,0,0,0,0,1
 "Negritos 5","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Plazas, et al. 1993; Plazas, Falchetti; Sáenz & Archila 1993;",8.61447,-75.03457,1,0,0,0,0,1
 "Nemocón","Altiplano Cundiboyacense","Cardale, 1976; Cardale, 1981.",,,3,0,0,0,0,3
-"Nemocón 4","Altiplano Cundiboyacense","Correal, 1979",5.4,73.53,0,0,0,1,0,1
+"Nemocón 4","Altiplano Cundiboyacense","Correal, 1979",5°4´,73°53,0,0,0,1,0,1
 "Neusa","Altiplano Cundiboyacense","Rivera, 1992",5.177063172,-73.97900598,0,0,0,1,0,1
 "Nuevo Colón","Altiplano Cundiboyacense","Lleras, 1986; 1989",5.330,-73.480,1,0,0,0,0,1
 "Nuevo Río Claro","Valles alto Calima y alto y medio del Cauca","Herrera, & Moreno, 1988; 1990;",4.99645,-75.5546472,1,0,0,0,0,1
@@ -246,7 +256,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Parámo de Peña Negra","Altiplano Cundiboyacense","Herrera, et al. 1992",,,0,0,0,1,0,1
 "Pavitas","Valles alto Calima y alto y medio del Cauca","Gahwiler, 1988",,,1,0,0,0,0,1
 "Pazu 1","Uraba, alto Sinú","",,,0,0,0,0,0,0
-"Peña Roja","Tierras bajas orientales","Cavelier, et al.1995; Gnecco & Mora 1997; Morcote 1994; Llanos, J. M. 1995; 1997; Piperno & Pearsal 1998; Mora 2001; Mora & Gnecco 2003",,,9,0,0,6,0,15
+"Peña Roja","Tierras bajas orientales","Cavelier, et al.1995; Gnecco & Mora 1997; Morcote 1994; Llanos, J. M. 1995; 1997; Piperno & Pearsal 1998; Mora 2001; Mora & Gnecco 2003",0.56097,-72.408516,9,0,0,6,0,15
 "Peñitas","Altiplano Cundiboyacense","Boada, et al. 1989",,,1,0,0,0,0,1
 "Peñones de Bogotá","Magdalena medio","López, 1990, 1992; López, & Botero, 1993",6.399353378,-74.41046746,0,2,0,0,0,2
 "Piedra Pintada","Altiplano Cundiboyacense","Becerra, 1985",,,1,0,0,0,0,1
@@ -261,8 +271,8 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Puerto Berrio","Magdalena medio","López, en prensa",,,0,0,0,1,0,1
 "Puerto Caldas","Tierras bajas orientales","Morey, 1975",,,1,0,0,0,0,1
 "Puerto Chacho","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Legros, 1990; 1992 :Rodríguez 1988; Archila 1991; Oyuela 1993; Arevalo & Maldonado 1990.",10.250,-75.320,0,5,0,0,0,5
-"Puerto Hormiga","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Reichel-Dolmatoff, 1965; 1972;  Angulo, 1995",10.8 N,75.29,0,6,0,0,0,6
-"Puerto Nuevo","Tierras bajas orientales","López, 1993",2.23,73 .7,0,1,0,0,0,1
+"Puerto Hormiga","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Reichel-Dolmatoff, 1965; 1972;  Angulo, 1995",10.8,-75.29,0,6,0,0,0,6
+"Puerto Nuevo","Tierras bajas orientales","López, 1993",2.23,-73.7,0,1,0,0,0,1
 "Purilia","Valles alto Calima y alto y medio del Cauca","Gähwiler-Walder, 1988",3.653274227,-76.59172002,1,0,0,0,0,1
 "Purutal","Alto Magdalena","Cubillos,1986",1.908322356,-76.32655172,2,0,0,0,0,2
 "Quebrada Mulas","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Botiva, et al. 1991",,,1,0,0,0,0,1
@@ -287,7 +297,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Santa Helena","Macizo Antioqueño","Santos, 1994",,,1,0,0,0,0,1
 "Santa Rosa VP1226","Alto Magdalena","Drennan, 1993",2.190,-76.080,1,0,0,0,0,1
 "Santa Rosa - Herrera","Magdalena medio","Rodríguez, 1990",3.39072,-75.88225,1,0,0,0,0,1
-"Santa Sofia","Tierras bajas orientales","Bolian, 1972",-3.92117,-70.16617,3,0,0,0,0,3
+"Santa Sofia","Tierras bajas orientales","Bolian, 1972",3.92117,-70.16617,3,0,0,0,0,3
 "Santiago","Alto Magdalena","Urdaneta, 1988",,,0,0,1,0,0,1
 "Santo Domingo Buenavista","Altiplano Cundiboyacense","Falchett, 1979; Reichel-Dolmatoff 1986:178",,,1,0,0,0,0,1
 "Sauzalito","Valles alto Calima y alto y medio del Cauca","Bray, et al. 1988",3.940,-76.520,0,0,0,3,0,3
@@ -303,7 +313,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Tajumbina","Macizo Andino del sur","Cadavid & Ordoñez,1989; Cadavid, 1993",1.572246371,-76.94252995,2,4,0,0,0,6
 "Tañik","Alto Magdalena","Urdaneta, 1991",2.63952,-76.342761,1,0,0,0,0,1
 "Tapias I","Altiplano Cundiboyacense","Boada, et al. 1989",,,1,0,0,0,0,1
-"Tequendama","Altiplano Cundiboyacense","Correal, 1973",4.35 N,74.13,0,0,0,0,0,0
+"Tequendama","Altiplano Cundiboyacense","Correal, 1973",4.320642,-74.163247,0,0,0,0,0,0
 "Tequendama I","Altiplano Cundiboyacense","Correal, 1980; Correal & van der Hammen 1977; van der Hammen & Correal 1978; van der Hammen,  Correal & van Klinken 1990",4.536623653,-74.27739769,1,4,0,15,0,20
 "Tibito I","Altiplano Cundiboyacense","Correal, 1981; van der Hammen, 1986",4.98648,-73.95596,0,0,0,1,0,1
 "Tigrera","Llanuras del Caribe cuencas bajas Sinú y San Jorge","Langebaek, 1987",11.06155849,-74.22112076,2,0,0,0,0,2
@@ -332,7 +342,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Villa de Leiva","Altiplano Cundiboyacense","Van der Hammen, 1986",5.600,-73.540,0,0,0,2,0,2
 "Villa Elisa","Valles alto Calima y alto y medio del Cauca","Cano, 1995",5.092,-76.065,1,0,0,0,0,1
 "Villa Helena 1","Magdalena medio","López, 1988; López, 1991",6.421502844,-73.93846008,3,0,0,0,0,3
-"Villa Helena 1","Magdalena medio","",6.1911",73.50,3,0,0,0,0,3
+"Villa Helena 1","Magdalena medio","",6.1911,-73.50,3,0,0,0,0,3
 "Vistahermosa 14","Altiplano Cundiboyacense","Correal, 1986;1987:17",,,0,2,0,0,0,2
 "Yacimiento 016","Macizo Antioqueño","Piazzini 1993 cita a Castillo, 1992.",,,1,0,0,0,0,1
 "Yacimiento 021","Macizo Antioqueño","López, 1989 en Piazzini 1994",,,0,0,0,1,0,1
@@ -352,11 +362,11 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Alto de Chinas","Alto Magdalena","Forero, 1997",1.30,-76.15,0,1,0,0,0,1
 "Altomira-Yacimiento 14","","Serna & Mejía 1994",5.85315172,-74.30918336,0,0,0,0,1,1
 "Arrancaplumas","Magdalena medio","Cifuentes 1991; 1993;",5.190,-74.770,1,0,0,0,0,1
-"Bugalagrande-PK 241+400","","Bernal, 1997",4.220,-76.170,1,0,0,0,0,1
+"Bugalagrande-PK 241+400","Magdalena medio","Bernal, 1997",4.220,-76.170,1,0,0,0,0,1
 "Alto de Quinchana","Alto Magdalena","Duque, 1966; Llanos &  Durán 1983.",1.885785,-76.33446,1,0,0,0,0,1
 "La Llanada","Valles alto Calima y alto y medio del Cauca","Salgado, 1986",4.314821384,-76.25003296,3,0,0,0,0,3
-"Atuncela II","","Alarcón,1995, 1996; Bernal,1995",3.73606139,-76.67961962,0,0,1,0,0,1
-"Barbosa-Yacimiento 30","","CISH 1996",,,0,0,0,0,1,1
+"Atuncela II","Valles alto Calima y alto y medio del Cauca","Alarcón,1995, 1996; Bernal,1995",3.73606139,-76.67961962,0,0,1,0,0,1
+"Barbosa-Yacimiento 30","Macizo Antioqueño","CISH 1996",,,0,0,0,0,1,1
 "Caicedonia-PK 11+810","","Bernal, 1997",4.340,-75.840,1,0,0,0,0,1
 "Cambalache","Valles alto Calima y alto y medio del Cauca","Salgado, 1996",4.48376514,-75.77995638,1,0,0,0,0,1
 "Campoalegre-Yacimiento 15","","Múnera; Monsalve; Vergara & Tabares 1996",5.848196235,-75.4067793,1,1,0,1,0,3
@@ -390,6 +400,7 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "La Argelia-Yacimiento 30","","Serna & Mejía 1994",5.82634135,-74.09301570,1,0,0,0,0,1
 "La Cabaña 1","","Alarcón 1995; 1996; Berbal 1995; Rojas 1995",3.70709950,-76.62931569,0,0,0,1,0,1
 "La Champiñorera I-Yacimiento 6","","Múnera; Monsalve & Botero 1997",6.05601204,-76.74760548,1,0,0,0,0,1
+"La Floresta-Yacimiento 08","","CISH 1996",4.38991724,-83.04473042,1,0,0,0,0,1
 "La Herradura-Yacimiento 27","","Santos 1996",6.53593357,-74.97243113,0,0,1,1,0,2
 "La laguna-Yacimiento 23","","Santos 1996",6.54139946,-74.99983251,1,0,0,0,0,1
 "San Roque","","Santos et al 1998; CISH 1996",6.51010832,-74.84167022,1,0,0,0,0,1
@@ -459,3 +470,10 @@ Sitio,Región,Referencia,Latitud,Longitud,Cacicazgos,Formativo,Colonial,Paleoind
 "Buenavista (Santander)","","Lleras 1988",,,0,0,0,0,0,0
 "La Aldea","Magdalena medio","Rodríguez 1991",,,1,0,0,0,0,1
 "Galindo I","Altiplano Cundiboyacense","Pinto 2003:47",,,0,0,0,2,0,2
+"Catanga","Tierras bajas orientales","Mora, 1988; Vargas, 2017",5.151509,-72.256703,0,0,1,0,0,1
+"La llorona","Tierras bajas orientales","Vargas, 2017",4.536623653,-74.27739769,0,0,0,0,0,0
+"El Pensil","Tierras bajas orientales","Vargas, 2017",5.10043,-7216201,0,0,0,0,0,0
+"Acacías A-2","Tierras bajas orientales","",,,0,0,0,0,0,0
+"El Arenal","Tierras bajas orientales","Vargas, 2017",5.161974,-72.255240,0,0,0,0,0,0
+"Corinto","Tierras bajas orientales","Vargas, 2017",5.167859,-72.272240,0,0,0,0,0,0
+"Telodiran","Tierras bajas orientales","Vargas, 2017",5.132852,-72.198258,0,0,0,0,0,0
