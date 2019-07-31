@@ -62,6 +62,8 @@ region = []
 coord = []
 
 for row in mapa:
+    if len(row["Sitio"]) < 2:
+        continue
     if len(row["Región"]) < 2:
         region.append(row["Sitio"])
     if row["Latitud"] == "" or row["Latitud"] == "":
@@ -73,12 +75,12 @@ coord = sorted(coord, key=lambda x: strip_accents(x[0].lower()))
 with open("problemas.html", "w") as outfile:
     outfile.write(pre)
 
-    outfile.write("<h4>Sitios sin coordenadas</h4>")
+    outfile.write("<h4>Sitios sin coordenadas</h4>\n")
     for row in coord:
-        outfile.write("<p>" + row + "</p>")
+        outfile.write("<p>" + row + "</p>\n")
 
-    outfile.write("<br><br><h4>Sitios sin región</h4>")
+    outfile.write("<br><br><h4>Sitios sin región</h4>\n")
     for row in region:
-        outfile.write("<p>" + row + "</p>")
+        outfile.write("<p>" + row + "</p>\n")
 
     outfile.write(post)
