@@ -24,376 +24,393 @@
 </head>
 
 <body>
-  <div class="section">
-    <h3>Sitios Arqueológicos de Colombia</h3>
-    <p style="font-size: 9pt">Mantenido por <a href="https://santiago-mora.github.io/">Santiago Mora</a> y <a
-        href="https://federicoaureliano.github.io">Federico Mora</a></p>
-    <div class="hbar"> </div>
+  <div class="main">
+  <h3 style="margin-bottom: -0.25em">Sitios Arqueológicos de Colombia</h3>
+  <p style="font-size: 9pt">Mantenido por <a href="https://santiago-mora.github.io/">Santiago Mora</a> y <a
+      href="https://federicoaureliano.github.io">Federico Mora</a></p>
+  <div class="hbar"> </div>
 
-    <p style="font-size:12pt" align="justify">
-      Se presenta aquí un modelo de información cronológica y espacial, con
-      soporte bibliográfico, para la arqueología colombiana. El territorio ha
-      sido dividido en trece regiones, por razones puramente organizativas. El
-      tamaño de los círculos representa el mayor o menor número de fechas para
-      cada sitio; al colocar el cursor sobre el nombre del sitio surgirán las
-      referencias para las fechas del mismo, al pulsar el mismo se abrirá una
-      localización en Google Maps. Pulse sobre un departamento para agrandar y
-      centrar la imagen, pulse una segunda vez sobre el mismo departamento para
-      volver a la imagen original. La bibliografía completa, más reciente, está
-      disponible <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/data/bib.csv">aquí</a>.
-    </p>
-    <p style="font-size:12pt" align="justify">
-      Su participación es esencial para el desarrollo de este proyecto, por
-      favor envíenos (arqcol@protonmail.com) los nombres de los sitios - con
-      coordenadas -, las referencias y los datos de sus fechas, para incluirlos
-      en este lugar. Con su colaboración los errores que hoy se encuentran en
-      este lugar desaparecerán.
-    </p>
+  <p style="font-size:12pt" align="justify">
+    Se presenta aquí un modelo de información cronológica y espacial, con
+    soporte bibliográfico, para la arqueología colombiana. El territorio ha
+    sido dividido en trece regiones, por razones puramente organizativas. El
+    tamaño de los círculos representa el mayor o menor número de fechas para
+    cada sitio; al colocar el cursor sobre el nombre del sitio surgirán las
+    referencias para las fechas del mismo, al pulsar el mismo se abrirá una
+    localización en Google Maps. Pulse sobre un departamento para agrandar y
+    centrar la imagen, pulse una segunda vez sobre el mismo departamento para
+    volver a la imagen original. La bibliografía completa, más reciente, está
+    disponible <a href="bib.html">aquí</a>.
+  </p>
+  <p style="font-size:12pt" align="justify">
+    Su participación es esencial para el desarrollo de este proyecto, por
+    favor envíenos (arqcol@protonmail.com) los nombres de los sitios - con
+    coordenadas -, las referencias y los datos de sus fechas, para incluirlos
+    en este lugar. Con su colaboración los errores que hoy se encuentran en
+    este lugar desaparecerán.
+  </p>
 
-    <br>
+  <br>
 
-    <select id="etapa">
-      <option value="Total">Todas Las Etapas (14000 a.C. - Presente)</option>
-      <option value="Republicano">Etapa Republicano (1800 d.C. - Presente)</option>
-      <option value="Colonial">Etapa Colonial (1600 d.C. - 1800 d.C.)</option>
-      <option value="Cacicazgos">Etapa Cacicazgos (1000 a.C. - 1600 d.C.)</option>
-      <option value="Formativo">Etapa Formativo (3000 a.C. - 1000 a.C.)</option>
-      <option value="Paleoindio">Etapa Paleoindio (14000 a.C. - 5000 a.C.)</option>
-    </select>
+  <select id="etapa">
+    <option value="Total">Todas (14000 a.C. - Presente)</option>
+    <option value="Republicano">Etapa Republicano (1800 d.C. - Presente)</option>
+    <option value="Colonial">Etapa Colonial (1600 d.C. - 1800 d.C.)</option>
+    <option value="Cacicazgos">Etapa Cacicazgos (1000 a.C. - 1600 d.C.)</option>
+    <option value="Formativo">Etapa Formativo (3000 a.C. - 1000 a.C.)</option>
+    <option value="Paleoindio">Etapa Paleoindio (14000 a.C. - 5000 a.C.)</option>
+    <option value="Sin">Sin Fecha (14000 a.C. - Presente)</option>
+  </select>
 
-    <svg></svg>
+  <svg></svg>
 
-    <script>
-      var count = 0;
-      var width = 750,
-        height = 700,
-        centered;
+  <script>
+    var count = 0;
+    var width = 750,
+      height = 700,
+      centered;
 
-      // Define color scale
-      var color = d3.scale.linear()
-        .domain([1, 20])
-        .clamp(true)
-        .range(['#fff', '#94bbba']);
+    // Define color scale
+    var color = d3.scale.linear()
+      .domain([1, 20])
+      .clamp(true)
+      .range(['#fff', '#94bbba']);
 
-      var projection = d3.geo.mercator()
-        .scale(2300)
-        // Center the Map in Colombia
-        .center([-76, 4.3])
-        .translate([width / 2, height / 2]);
+    var projection = d3.geo.mercator()
+      .scale(2300)
+      // Center the Map in Colombia
+      .center([-76, 4.3])
+      .translate([width / 2, height / 2]);
 
-      var path = d3.geo.path()
-        .projection(projection);
+    var path = d3.geo.path()
+      .projection(projection);
 
-      // Set svg width & height
-      var svg = d3.select('svg')
-        .attr('width', width)
-        .attr('height', height);
+    // Set svg width & height
+    var svg = d3.select('svg')
+      .attr('width', width)
+      .attr('height', height);
 
-      var g = svg.append('g');
+    var g = svg.append('g');
 
-      var geoLayer = g.append('g')
-        .classed('geo-layer', true);
+    var geoLayer = g.append('g')
+      .classed('geo-layer', true);
 
-      // Load geo data
-      d3.json('https://federicoaureliano.github.io/ArqCol/data/colombia.geo.json', function (error, mapData) {
-        var features = mapData.features;
+    // Load geo data
+    d3.json('https://federicoaureliano.github.io/ArqCol/data/colombia.geo.json', function (error, mapData) {
+      var features = mapData.features;
 
-        // Update color scale domain based on data
-        color.domain([0, d3.max(features, nameLength)]);
+      // Update color scale domain based on data
+      color.domain([0, d3.max(features, nameLength)]);
 
-        // Draw each province as a path
-        geoLayer.selectAll('path')
-          .data(features)
-          .enter().append('path')
-          .attr('d', path)
-          .attr('vector-effect', 'non-scaling-stroke')
-          .style('fill', fillFn)
-          .on('click', clicked);
-      });
+      // Draw each province as a path
+      geoLayer.selectAll('path')
+        .data(features)
+        .enter().append('path')
+        .attr('d', path)
+        .attr('vector-effect', 'non-scaling-stroke')
+        .style('fill', fillFn)
+        .on('click', clicked);
+    });
 
-      // Get province name
-      function nameFn(d) {
-        return d && d.properties ? d.properties.NOMBRE_DPT : null;
-      }
+    // Get province name
+    function nameFn(d) {
+      return d && d.properties ? d.properties.NOMBRE_DPT : null;
+    }
 
-      // Get province name length
-      function nameLength(d) {
-        var n = nameFn(d);
-        return n ? n.length : 0;
-      }
+    // Get province name length
+    function nameLength(d) {
+      var n = nameFn(d);
+      return n ? n.length : 0;
+    }
 
-      // Get province color
-      function fillFn(d) {
-        return color(nameLength(d));
-      }
+    // Get province color
+    function fillFn(d) {
+      return color(nameLength(d));
+    }
 
-      // When clicked, zoom in
-      function clicked(d) {
+    // When clicked, zoom in
+    function clicked(d) {
 
-        var x, y;
+      var x, y;
 
-        var bounds = path.bounds(d),
-          dx = bounds[1][0] - bounds[0][0],
-          dy = bounds[1][1] - bounds[0][1],
-          x = (bounds[0][0] + bounds[1][0]) / 2,
-          y = (bounds[0][1] + bounds[1][1]) / 2,
-          scale = .9 / Math.max(dx / width, dy / height),
-          translate = [width / 2 - scale * x, height / 2 - scale * y];
+      var bounds = path.bounds(d),
+        dx = bounds[1][0] - bounds[0][0],
+        dy = bounds[1][1] - bounds[0][1],
+        x = (bounds[0][0] + bounds[1][0]) / 2,
+        y = (bounds[0][1] + bounds[1][1]) / 2,
+        scale = .9 / Math.max(dx / width, dy / height),
+        translate = [width / 2 - scale * x, height / 2 - scale * y];
 
-        // Compute centroid of the selected path
-        if (d && centered !== d) {
-          var centroid = path.centroid(d);
-          x = centroid[0];
-          y = centroid[1];
-          // Zoom
-          g.transition()
-            .duration(750)
-            .style("stroke-width", 1 / scale + "px")
-            .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
-          
-          if (centered == null) {
-            d3.selectAll("circle").transition().duration(750)
-              .attr("r", function (d, i) {
-                return this.getAttribute("r") / 2;
-                })
-              .style("stroke-width", 1/3 + "px");
-          }
-          centered = d;
-        } else {
-          g.transition()
+      // Compute centroid of the selected path
+      if (d && centered !== d) {
+        var centroid = path.centroid(d);
+        x = centroid[0];
+        y = centroid[1];
+        // Zoom
+        g.transition()
+          .duration(750)
+          .style("stroke-width", 1 / scale + "px")
+          .attr("transform", "translate(" + translate + ")scale(" + scale + ")");
+
+        if (centered == null) {
+          d3.selectAll("circle").transition().duration(750)
+            .attr("r", function (d, i) {
+              return this.getAttribute("r") / 2;
+            })
+            .style("stroke-width", 1 / 3 + "px");
+        }
+        centered = d;
+      } else {
+        g.transition()
           .duration(750)
           .style("stroke-width", "1px")
           .attr("transform", "");
-          centered = null;
+        centered = null;
 
-          d3.selectAll("circle").transition().duration(750)
-            .attr("r", function (d, i) {
-              return this.getAttribute("r") * 2;
-            })
-            .style("stroke-width", "1px");
-        }
-
-        // Highlight the clicked province
-        geoLayer.selectAll('path')
-          .style('fill', function (d) {
-            return centered && d === centered ? '#94bbba' : fillFn(d);
-          });
-
-      }
-
-      //// POINTS ON MAP
-
-      // Get region name
-      function regionNameFn(d) {
-        return d.Región ? String(d.Región) : d;
-      }
-
-      var sorted_regions = [" "];
-
-      // Get province color
-      function regionFillFn(d) {
-        var str = regionNameFn(d);
-        if (str.length > 2 && sorted_regions.indexOf(str) < 0) { sorted_regions.push(str); sorted_regions.sort().reverse(); }
-
-        if ("Tierras bajas orientales" == str) {
-          return "#FF0000";
-        } else if ("Peninsula de la Guajira y corredor del Cesar" == str) {
-          return "#00FFFF";
-        } else if ("Uraba, alto Sinú" == str) {
-          return "#0000FF";
-        } else if ("Montaña Santandereana" == str) {
-          return "#0000A0";
-        } else if ("Macizo Andino del sur" == str) {
-          return "#ADD8E6";
-        } else if ("Costa Pacífica" == str) {
-          return "#800080";
-        } else if ("Macizo Antioqueño" == str) {
-          return "#FFFF00";
-        } else if ("Llanuras del Caribe cuencas bajas Sinú y San Jorge" == str) {
-          return "#FF00FF";
-        } else if ("Magdalena medio" == str) {
-          return "#FFA500";
-        } else if ("Sierra Nevada" == str) {
-          return "#A52A2A";
-        } else if ("Valles alto Calima y alto y medio del Cauca" == str) {
-          return "#800000";
-        } else if ("Alto Magdalena" == str) {
-          return "#008000";
-        } else if ("Altiplano Cundiboyacense" == str) {
-          return "#808000";
-        }
-        else {
-          return "#000";
-        }
-
-      }
-
-      var pointsLayer = g.append('g')
-        .classed('points-layer', true);
-
-      // Load site data
-      var data;
-      d3.csv('https://federicoaureliano.github.io/ArqCol/data/mapa.csv', function (error, pointData) {
-        // Update color scale domain based on data
-        data = pointData;
-
-        // Draw each site as a circle
-        pointsLayer.selectAll("circle")
-          .data(pointData)
-          .enter()
-          .append("a")
-          .attr("xlink:href", function (d) {
-            var lat = String(d.Latitud);
-            lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
-            if (!String(lat).startsWith("-")) {
-              lat = "+" + lat;
-            }
-
-            var lon = String(d.Longitud);
-            lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
-            if (!String(lon).startsWith("-")) {
-              lon = "-" + lon;
-            }
-
-            if (!parseFloat(lon) || !parseFloat(lat)) {
-              return "https://www.google.com/maps/search/?api=1&query=" + d.Región;
-            }
-            return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lon;
+        d3.selectAll("circle").transition().duration(750)
+          .attr("r", function (d, i) {
+            return this.getAttribute("r") * 2;
           })
-          .append("circle", "circle")
+          .style("stroke-width", "1px");
+      }
+
+      // Highlight the clicked province
+      geoLayer.selectAll('path')
+        .style('fill', function (d) {
+          return centered && d === centered ? '#94bbba' : fillFn(d);
+        });
+
+    }
+
+    //// POINTS ON MAP
+
+    // Get region name
+    function regionNameFn(d) {
+      return d.Región ? String(d.Región) : d;
+    }
+
+    var sorted_regions = [" "];
+
+    // Get province color
+    function regionFillFn(d) {
+      var str = regionNameFn(d);
+      if (str.length > 2 && sorted_regions.indexOf(str) < 0) {
+        sorted_regions.push(str);
+        sorted_regions.sort().reverse();
+      }
+
+      if ("Tierras bajas orientales" == str) {
+        return "#FF0000";
+      } else if ("Peninsula de la Guajira y corredor del Cesar" == str) {
+        return "#00FFFF";
+      } else if ("Uraba, alto Sinú" == str) {
+        return "#0000FF";
+      } else if ("Montaña Santandereana" == str) {
+        return "#0000A0";
+      } else if ("Macizo Andino del sur" == str) {
+        return "#ADD8E6";
+      } else if ("Costa Pacífica" == str) {
+        return "#800080";
+      } else if ("Macizo Antioqueño" == str) {
+        return "#FFFF00";
+      } else if ("Llanuras del Caribe cuencas bajas Sinú y San Jorge" == str) {
+        return "#FF00FF";
+      } else if ("Magdalena medio" == str) {
+        return "#FFA500";
+      } else if ("Sierra Nevada" == str) {
+        return "#A52A2A";
+      } else if ("Valles alto Calima y alto y medio del Cauca" == str) {
+        return "#800000";
+      } else if ("Alto Magdalena" == str) {
+        return "#008000";
+      } else if ("Altiplano Cundiboyacense" == str) {
+        return "#808000";
+      } else {
+        return "#000";
+      }
+
+    }
+
+    var pointsLayer = g.append('g')
+      .classed('points-layer', true);
+
+    // Load site data
+    var data;
+    d3.csv('https://federicoaureliano.github.io/ArqCol/data/mapa.csv', function (error, pointData) {
+      // Update color scale domain based on data
+      data = pointData;
+
+      // Draw each site as a circle
+      pointsLayer.selectAll("circle")
+        .data(pointData)
+        .enter()
+        .append("a")
+        .attr("xlink:href", function (d) {
+          var lat = String(d.Latitud);
+          lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "")
+            .replace("S", "");
+          if (!String(lat).startsWith("-")) {
+            lat = "+" + lat;
+          }
+
+          var lon = String(d.Longitud);
+          lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "")
+            .replace("S", "");
+          if (!String(lon).startsWith("-")) {
+            lon = "-" + lon;
+          }
+
+          if (!parseFloat(lon) || !parseFloat(lat)) {
+            return "https://www.google.com/maps/search/?api=1&query=" + d.Región;
+          }
+          return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lon;
+        })
+        .append("circle", "circle")
+        .attr("r", function (d) {
+          return Math.sqrt(d.Total);
+        })
+        .attr("transform", function (d) {
+          var lat = String(d.Latitud);
+          lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "")
+            .replace("S", "");
+          if (!String(lat).startsWith("-")) {
+            lat = "+" + lat;
+          }
+          lat = parseFloat(lat);
+
+          var lon = String(d.Longitud);
+          lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "")
+            .replace("S", "");
+          if (!String(lon).startsWith("-")) {
+            lon = "-" + lon;
+          }
+          lon = parseFloat(lon);
+
+          if (!lon || !lat) {
+            return "translate(" + projection([
+              0, 0
+            ]) + ")";
+          }
+
+          count++;
+          return "translate(" + projection([
+            lon, lat
+          ]) + ")";
+        })
+        .style("stroke", regionFillFn)
+        .style("fill", "transparent")
+        .append("title")
+        .text(function (d) {
+          return "Sitio: " + d.Sitio + "\nRegión: " + d.Región + "\nReferencia(s): " + d.Referencia;
+        })
+
+      // add legend   
+      var legend = g.append("g")
+        .attr("class", "legend")
+        .attr("height", 100)
+        .attr("width", 100)
+        .attr('transform', 'translate(-80, 6.5)')
+
+      legend.selectAll('circle')
+        .data(sorted_regions)
+        .enter()
+        .append("circle")
+        .attr("transform", function (d) {
+          return "translate(" + projection([
+            -83.1, sorted_regions.indexOf(d) * 0.5 + 6.2
+          ]) + ")";
+        })
+        .attr("r", 5)
+        .style("fill", regionFillFn)
+        .style("stroke", regionFillFn);
+
+      legend.selectAll('text')
+        .data(sorted_regions)
+        .enter()
+        .append("text")
+        .attr("transform", function (d) {
+          return "translate(" + projection([
+            -82.8, sorted_regions.indexOf(d) * 0.5 + 6.1
+          ]) + ")";
+        })
+        .style("font-size", "10pt")
+        .text(function (d) {
+          return d;
+        });
+
+      var today = new Date();
+      var dd = String(today.getDate()).padStart(2, '0');
+      var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+      var yyyy = today.getFullYear();
+
+      today = dd + '/' + mm + '/' + yyyy;
+      legend.append("text")
+        .attr("transform", "translate(" + projection([-68.25, 12.6]) + ")")
+        .style("font-size", "10pt")
+        .style("fill", "#aaa")
+        .text(today + ": " + count + " Sitios");
+    });
+
+    d3.select("#etapa").on("change", change)
+
+    function change() {
+      var choice = this.value;
+
+      if (choice == "Sin") {
+        d3.selectAll("circle").data(data).transition()
+          .duration(750)
+          .attr("r", function (d) {
+            if (d.Total == 0) {
+              return 1;
+            }
+            return 0;
+          });
+      } else if (choice == "Cacicazgos") {
+        d3.selectAll("circle").data(data).transition()
+          .duration(750)
+          .attr("r", function (d) {
+            return Math.sqrt(d.Cacicazgos);
+          });
+      } else if (choice == "Formativo") {
+        d3.selectAll("circle").data(data).transition()
+          .duration(750)
+          .attr("r", function (d) {
+            return Math.sqrt(d.Formativo);
+          });
+      } else if (choice == "Colonial") {
+        d3.selectAll("circle").data(data).transition()
+          .duration(750)
+          .attr("r", function (d) {
+            return Math.sqrt(d.Colonial);
+          });
+      } else if (choice == "Paleoindio") {
+        d3.selectAll("circle").data(data).transition()
+          .duration(750)
+          .attr("r", function (d) {
+            return Math.sqrt(d.Paleoindio);
+          });
+      } else if (choice == "Republicano") {
+        d3.selectAll("circle").data(data).transition()
+          .duration(750)
+          .attr("r", function (d) {
+            return Math.sqrt(d.Republicano);
+          });
+      } else {
+        d3.selectAll("circle").data(data).transition()
+          .duration(750)
           .attr("r", function (d) {
             return Math.sqrt(d.Total);
-          })
-          .attr("transform", function (d) {
-            var lat = String(d.Latitud);
-            lat = lat.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
-            if (!String(lat).startsWith("-")) {
-              lat = "+" + lat;
-            }
-            lat = parseFloat(lat);
-
-            var lon = String(d.Longitud);
-            lon = lon.replace("N", "").replace("W", "").replace("°", ".").replace("\´", "").replace("\'", "").replace("S", "");
-            if (!String(lon).startsWith("-")) {
-              lon = "-" + lon;
-            }
-            lon = parseFloat(lon);
-
-            if (!lon || !lat) {
-              return "translate(" + projection([
-                0, 0
-              ]) + ")";
-            }
-            
-            count++;
-            return "translate(" + projection([
-              lon, lat
-            ]) + ")";
-          })
-          .style("stroke", regionFillFn)
-          .style("fill", "transparent")
-          .append("title")
-          .text(function (d) {
-            return "Sitio: " + d.Sitio + "\nRegión: " + d.Región + "\nReferencia(s): " + d.Referencia;
-          })
-
-        // add legend   
-        var legend = g.append("g")
-          .attr("class", "legend")
-          .attr("height", 100)
-          .attr("width", 100)
-          .attr('transform', 'translate(-80, 6.5)')
-
-        legend.selectAll('circle')
-          .data(sorted_regions)
-          .enter()
-          .append("circle")
-          .attr("transform", function (d) {
-            return "translate(" + projection([
-              -83.1, sorted_regions.indexOf(d) * 0.5 + 6.2
-            ]) + ")";
-          })
-          .attr("r", 5)
-          .style("fill", regionFillFn)
-          .style("stroke", regionFillFn);
-
-        legend.selectAll('text')
-          .data(sorted_regions)
-          .enter()
-          .append("text")
-          .attr("transform", function (d) {
-            return "translate(" + projection([
-              -82.8, sorted_regions.indexOf(d) * 0.5 + 6.1
-            ]) + ")";
-          })
-          .style("font-size", "10pt")
-          .text(function (d) { return d; });
-        
-        var today = new Date();
-        var dd = String(today.getDate()).padStart(2, '0');
-        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-        var yyyy = today.getFullYear();
-
-        today = dd + '/' + mm + '/' + yyyy;
-        legend.append("text")          
-          .attr("transform", "translate(" + projection([-68.25, 12.6]) + ")")
-          .style("font-size", "10pt")
-          .style("fill", "#aaa")
-          .text(today + ": " + count + " Sitios");
-      });
-
-      d3.select("#etapa").on("change", change)
-
-      function change() {
-        var choice = this.value;
-
-        if (choice == "Cacicazgos") {
-          d3.selectAll("circle").data(data).transition()
-            .duration(750)
-            .attr("r", function (d) {
-              return Math.sqrt(d.Cacicazgos);
-            });
-        } else if (choice == "Formativo") {
-          d3.selectAll("circle").data(data).transition()
-            .duration(750)
-            .attr("r", function (d) {
-              return Math.sqrt(d.Formativo);
-            });
-        } else if (choice == "Colonial") {
-          d3.selectAll("circle").data(data).transition()
-            .duration(750)
-            .attr("r", function (d) {
-              return Math.sqrt(d.Colonial);
-            });
-        } else if (choice == "Paleoindio") {
-          d3.selectAll("circle").data(data).transition()
-            .duration(750)
-            .attr("r", function (d) {
-              return Math.sqrt(d.Paleoindio);
-            });
-        } else if (choice == "Republicano") {
-          d3.selectAll("circle").data(data).transition()
-            .duration(750)
-            .attr("r", function (d) {
-              return Math.sqrt(d.Republicano);
-            });
-        }
-        else {
-          d3.selectAll("circle").data(data).transition()
-            .duration(750)
-            .attr("r", function (d) {
-              return Math.sqrt(d.Total);
-            });
-        }
+          });
       }
-    </script>
-
-    <div class="hbar"> </div>
-    <p style="font-size: 8pt">1. Gracias a John Alexis Guerra Gómez por el <a
-        href="https://bl.ocks.org/john-guerra/43c7656821069d00dcbc">mapa de Colombia</a>.</p>
-    <p style="font-size: 8pt">2. <a href="https://github.com/FedericoAureliano/ArqCol">Este proyecto</a> está disponible
-      bajo la <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/LICENSE">Licencia Pública General de GNU
-        v3.0</a>.</p>
+    }
+  </script>
+  <div class="hbar"> </div>
+  <p style="font-size: 8pt">1. Gracias a John Alexis Guerra Gómez por el <a
+      href="https://bl.ocks.org/john-guerra/43c7656821069d00dcbc">mapa de Colombia</a>.</p>
+  <p style="font-size: 8pt">2. <a href="https://github.com/FedericoAureliano/ArqCol">Este proyecto</a> está disponible
+    bajo la <a href="https://github.com/FedericoAureliano/ArqCol/blob/master/LICENSE">Licencia Pública General de GNU
+      v3.0</a>.</p>
+  </div>
 
 </body>
 
