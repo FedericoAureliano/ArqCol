@@ -15,7 +15,7 @@ with open('data/sitios_arqueologicos.csv') as sitios_csv:
     sitios = list(csv.DictReader(sitios_csv))
 
 
-result = [keys + etapas + ["Total"]]
+result = [keys + etapas + ["Total"] + ["Fechas"]]
 
 for sitio in sitios:
     row = []
@@ -27,15 +27,20 @@ for sitio in sitios:
             row.append("\"" + sitio[k].replace("\"", "\'") + "\"")
 
     total = 0
+    fechas = []
     for etapa in etapas:
         count = 0
         for c in cronologia:
             if c["Sitio"] == sitio["Sitio"] and c["Etapa"] == etapa:
                 count += 1
-                total += 1 
+                total += 1
+                fecha = c["Fecha cristiana"]
+                if len(fecha) > 0:
+                    fechas.append(int(fecha))
         row.append(str(count))
     
     row.append(str(total))
+    row.append("; ".join([str(f) for f in sorted(fechas)]))
 
     result.append(row)
 
