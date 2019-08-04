@@ -24,7 +24,7 @@ for sitio in sitios:
         if k in ["Latitud", "Longitud"]:
             row.append(sitio[k])
         else:
-            row.append("\"" + sitio[k] + "\"")
+            row.append("\"" + sitio[k].replace("\"", "\'") + "\"")
 
     total = 0
     for etapa in etapas:
