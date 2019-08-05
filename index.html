@@ -52,7 +52,7 @@
 
   <br>
 
-  <select id="etapa">
+  <select style="float: left;" id="etapa">
     <option value="Total">Todas las Etapas (14000 a.C. - Presente)</option>
     <option value="Republicano">Etapa Republicano (1800 d.C. - Presente)</option>
     <option value="Colonial">Etapa Colonial (1600 d.C. - 1800 d.C.)</option>
@@ -61,8 +61,9 @@
     <option value="Paleoindio">Etapa Paleoindio (14000 a.C. - 5000 a.C.)</option>
     <option value="Sin">Sitios sin Fechas</option>
   </select>
-
-  <input id="search" style="float: right;" type="text" placeholder="Buscar sitio..">
+  <input id="search-sitio" style="float: left;" type="text" placeholder="Sitio...">
+  <input id="search-autor" style="float: left;" type="text" placeholder="Autor...">
+  <input id="search-ano" style="float: left;" type="text" placeholder="Año de publicación...">
 
   <svg></svg>
 
@@ -375,35 +376,56 @@
       }
     }
 
-    d3.select("#etapa").on("change", change)
+    d3.select("#etapa").on("change", changeEtapa)
 
-    function change() {
-      var choice = this.value;
-      var query = document.getElementById('search').value;
-      console.log(choice);
+    function changeEtapa() {
+      var etapa = this.value;
+      var sitio = document.getElementById('search-sitio').value;
+      var autor = document.getElementById('search-autor').value;
+      var ano = document.getElementById('search-ano').value;
 
-      d3.selectAll("circle").data(data).transition()
-        .duration(750)
-        .attr("r", function (d) {
-          if (d.Sitio.includes(query)) {
-            return size(d, choice)
-          }
-          return 0;
-        });
+      mapQuery(ano, autor, etapa, sitio);
     }
 
-    d3.select("#search").on("change", search)
+    d3.select("#search-sitio").on("change", searchSitio)
 
-    function search() {
-      var query = this.value;
-      var choice = document.getElementById('etapa').value;
-      console.log(choice);
+    function searchSitio() {
+      var sitio = this.value;
+      var etapa = document.getElementById('etapa').value;
+      var autor = document.getElementById('search-autor').value;
+      var ano = document.getElementById('search-ano').value;
 
+      mapQuery(ano, autor, etapa, sitio);
+    }
+
+    d3.select("#search-autor").on("change", searchAutor)
+
+    function searchAutor() {
+      var autor = this.value;
+      var etapa = document.getElementById('etapa').value;
+      var sitio = document.getElementById('search-sitio').value;
+      var ano = document.getElementById('search-ano').value;
+
+      mapQuery(ano, autor, etapa, sitio);
+    }
+
+    d3.select("#search-ano").on("change", searchAno)
+
+    function searchAno() {
+      var ano = this.value;
+      var etapa = document.getElementById('etapa').value;
+      var sitio = document.getElementById('search-sitio').value;
+      var autor = document.getElementById('search-autor').value;
+
+      mapQuery(ano, autor, etapa, sitio);
+    }
+
+    function mapQuery(ano, autor, etapa, sitio) {
       d3.selectAll("circle").data(data).transition()
         .duration(750)
         .attr("r", function (d) {
-          if (d.Sitio.includes(query)) {
-            return size(d, choice)
+          if (d.Sitio.includes(sitio) && d.Referencia.includes(autor) && d.Referencia.includes(ano)) {
+            return size(d, etapa)
           }
           return 0;
         });
