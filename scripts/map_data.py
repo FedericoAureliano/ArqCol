@@ -47,5 +47,6 @@ for sitio in sitios:
 
 with open("data/mapa.csv", "w") as outfile:
     for row in result:
+        row[0] = s = row[0].split('---', 1)[0]
         outfile.write(",".join(row) + "\n")
 
