@@ -62,6 +62,8 @@
     <option value="Sin">Sitios sin Fechas</option>
   </select>
 
+  <input id="search" style="float: right;" type="text" placeholder="Buscar sitio..">
+
   <svg></svg>
 
   <script>
@@ -351,58 +353,62 @@
         .text(today + ": " + count + " Sitios");
     });
 
+    function size(d, etapa) {
+      if (etapa == "Sin") {
+        if (d.Total == 0) {
+          return 1;
+        }
+        return 0;
+      }
+      else if (etapa == "Cacicazgos") {
+        return Math.sqrt(d.Cacicazgos);
+      } else if (etapa == "Formativo") {
+        return Math.sqrt(d.Formativo);
+      } else if (etapa == "Colonial") {
+        return Math.sqrt(d.Colonial);
+      } else if (etapa == "Paleoindio") {
+        return Math.sqrt(d.Paleoindio);
+      } else if (etapa == "Republicano") {
+        return Math.sqrt(d.Republicano);
+      } else {
+        return Math.sqrt(d.Total);
+      }
+    }
+
     d3.select("#etapa").on("change", change)
 
     function change() {
       var choice = this.value;
+      var query = document.getElementById('search').value;
+      console.log(choice);
 
-      if (choice == "Sin") {
-        d3.selectAll("circle").data(data).transition()
-          .duration(750)
-          .attr("r", function (d) {
-            if (d.Total == 0) {
-              return 1;
-            }
-            return 0;
-          });
-      } else if (choice == "Cacicazgos") {
-        d3.selectAll("circle").data(data).transition()
-          .duration(750)
-          .attr("r", function (d) {
-            return Math.sqrt(d.Cacicazgos);
-          });
-      } else if (choice == "Formativo") {
-        d3.selectAll("circle").data(data).transition()
-          .duration(750)
-          .attr("r", function (d) {
-            return Math.sqrt(d.Formativo);
-          });
-      } else if (choice == "Colonial") {
-        d3.selectAll("circle").data(data).transition()
-          .duration(750)
-          .attr("r", function (d) {
-            return Math.sqrt(d.Colonial);
-          });
-      } else if (choice == "Paleoindio") {
-        d3.selectAll("circle").data(data).transition()
-          .duration(750)
-          .attr("r", function (d) {
-            return Math.sqrt(d.Paleoindio);
-          });
-      } else if (choice == "Republicano") {
-        d3.selectAll("circle").data(data).transition()
-          .duration(750)
-          .attr("r", function (d) {
-            return Math.sqrt(d.Republicano);
-          });
-      } else {
-        d3.selectAll("circle").data(data).transition()
-          .duration(750)
-          .attr("r", function (d) {
-            return Math.sqrt(d.Total);
-          });
-      }
+      d3.selectAll("circle").data(data).transition()
+        .duration(750)
+        .attr("r", function (d) {
+          if (d.Sitio.includes(query)) {
+            return size(d, choice)
+          }
+          return 0;
+        });
     }
+
+    d3.select("#search").on("change", search)
+
+    function search() {
+      var query = this.value;
+      var choice = document.getElementById('etapa').value;
+      console.log(choice);
+
+      d3.selectAll("circle").data(data).transition()
+        .duration(750)
+        .attr("r", function (d) {
+          if (d.Sitio.includes(query)) {
+            return size(d, choice)
+          }
+          return 0;
+        });
+    }
+
   </script>
   <div class="hbar"> </div>
   <p style="font-size: 10pt">1. Gracias a John Alexis Guerra Gómez por el <a
