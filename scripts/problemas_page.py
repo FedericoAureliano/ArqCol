@@ -58,18 +58,18 @@ post = '''
 with open('data/mapa.csv') as mapa_csv:
     mapa = list(csv.DictReader(mapa_csv))
 
-region = []
+# fechas = []
 coord = []
 
 for row in mapa:
     if len(row["Sitio"]) < 2:
         continue
-    if len(row["Región"]) < 2:
-        region.append(row["Sitio"])
+    # if row["Total"] == "0":
+    #     fechas.append(row["Sitio"])
     if row["Latitud"] == "" or row["Latitud"] == "":
         coord.append(row["Sitio"])
 
-region = sorted(region, key=lambda x: strip_accents(x[0].lower()))
+# fechas = sorted(fechas, key=lambda x: strip_accents(x[0].lower()))
 coord = sorted(coord, key=lambda x: strip_accents(x[0].lower()))
 
 with open("problemas.html", "w") as outfile:
@@ -79,8 +79,8 @@ with open("problemas.html", "w") as outfile:
     for row in coord:
         outfile.write("<p>" + row + "</p>\n")
 
-    outfile.write("<br><br><h4>Sitios sin región</h4>\n")
-    for row in region:
-        outfile.write("<p>" + row + "</p>\n")
+    # outfile.write("<br><br><h4>Sitios sin fechas</h4>\n")
+    # for row in fechas:
+    #     outfile.write("<p>" + row + "</p>\n")
 
     outfile.write(post)
