@@ -4,15 +4,17 @@ from math import sin, cos, sqrt, atan2, radians
 # approximate radius of earth in km
 R = 6373.0
 
-def min_distance(u):
-    best_r = ""
-    best_d = -1
+def k_min_distance(u, k):
+    best_r = [""]*k
+    best_d = [-1]*k
     
     for p in known:
         d = distance(p, u)
-        if d < best_d or best_d < 0:
-            best_d = d
-            best_r = p["Región"]
+        for i in range(k):
+            if d < best_d[i] or best_d[i] < 0:
+                best_d[i] = d
+                best_r[i] = p["Región"]
+                break
 
     return best_r
 
@@ -44,8 +46,10 @@ for p in puntos:
         known.append(p)
 
 for i in range(len(unknown)):
-    unknown[i]["Región"] = min_distance(unknown[i])
-    print(unknown[i]["Sitio"], "assigned to", unknown[i]["Región"])
+    closest = k_min_distance(unknown[i], 5)
+    if (all([p == closest[0] for p in closest])): 
+        unknown[i]["Región"] = closest[0] 
+        print(unknown[i]["Sitio"], "assigned to", unknown[i]["Región"])
 
 with open("data/mapa2.csv", "w") as outfile:
     keys = [str(t) for t in puntos[0].keys()]
