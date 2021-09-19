@@ -93,7 +93,7 @@
       .classed('geo-layer', true);
 
     // Load geo data
-    d3.json('https://federicoaureliano.github.io/ArqCol/data/colombia.geo.json', function (error, mapData) {
+    d3.json('https://federico.morarocha.ca/ArqCol/data/colombia.geo.json', function (error, mapData) {
       var features = mapData.features;
 
       // Update color scale domain based on data
@@ -233,7 +233,7 @@
 
     // Load site data
     var data;
-    d3.csv('https://federicoaureliano.github.io/ArqCol/data/mapa.csv', function (error, pointData) {
+    d3.csv('https://federico.morarocha.ca/ArqCol/data/mapa.csv', function (error, pointData) {
       // Update color scale domain based on data
       data = pointData;
 
